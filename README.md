@@ -32,9 +32,17 @@ this mod currently has :
 ### Steel armour
 ### Aluminium armour
 
-# Weapons
-
 # Tools
+### Amethyst
+### Aluminium
+### Bronze
+### Copper
+### Jade
+### Jasper
+### Ruby
+### Topaz
+### Steel
+### Zinc
 
 # the Backrooms
 ### Level 0
