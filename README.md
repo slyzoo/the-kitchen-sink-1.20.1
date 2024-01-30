@@ -19,6 +19,14 @@ this mod currently has :
 ### Tin
 ### Bronze
 
+# Armour
+
+# Weapons
+
+# Tools
+
+# Dimensions
+
 # Misc
 ### Ender star
 ### Heart
