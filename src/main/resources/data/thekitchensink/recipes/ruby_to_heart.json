@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "#T#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:ruby"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:heart"
+  }
+}

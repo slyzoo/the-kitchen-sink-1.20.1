@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:rose_quartz_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:rose_quartz",
+    "count": 4
+  }
+}

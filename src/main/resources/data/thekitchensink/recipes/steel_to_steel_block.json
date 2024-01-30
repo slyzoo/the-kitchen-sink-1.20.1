@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:steel_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:sapphire",
+    "count": 4
+  }
+}

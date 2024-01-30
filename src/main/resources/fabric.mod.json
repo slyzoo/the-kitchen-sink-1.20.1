@@ -5,13 +5,14 @@
 	"name": "Thekitchensink",
 	"description": "A mod that has just a little bit of everything that i can think of together",
 	"authors": [
-		"slythefemboi"
+		"slythefemboi (programmer and did some textures)",
+		"my brother (did most textures)"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "none",
 	"icon": "assets/thekitchensink/icon.png",
 	"environment": "*",
 	"entrypoints": {

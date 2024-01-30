@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:bronze_block"
+  }
+}

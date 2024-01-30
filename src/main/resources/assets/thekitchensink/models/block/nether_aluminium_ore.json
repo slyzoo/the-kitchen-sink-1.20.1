@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thekitchensink:block/nether_aluminium_ore"
+  }
+}

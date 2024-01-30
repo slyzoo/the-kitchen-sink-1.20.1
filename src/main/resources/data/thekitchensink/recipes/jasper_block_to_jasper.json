@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:jasper_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:jasper",
+    "count": 4
+  }
+}

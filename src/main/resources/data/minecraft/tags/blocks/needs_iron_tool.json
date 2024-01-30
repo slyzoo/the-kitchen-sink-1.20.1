@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thekitchensink:purple_gold_block",
+    "thekitchensink:steel_block",
+    "thekitchensink:ruby_ore",
+    "thekitchensink:deepslate_ruby_ore",
+    "thekitchensink:ruby_block",
+    "thekitchensink:aluminium_block",
+    "thekitchensink:nether_aluminium_ore"
+  ]
+}

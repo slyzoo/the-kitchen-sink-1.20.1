@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:purple_gold_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:purple_gold_ingot",
+    "count": 9
+  }
+}

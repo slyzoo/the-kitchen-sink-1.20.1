@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thekitchensink:block/backrooms_level_zero_wall_crown_molding_block"
+  }
+}

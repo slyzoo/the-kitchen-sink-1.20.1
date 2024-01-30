@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:topaz_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:topaz",
+    "count": 4
+  }
+}

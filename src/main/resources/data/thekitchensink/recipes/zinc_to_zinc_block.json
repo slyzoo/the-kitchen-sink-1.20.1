@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:aluminium_block"
+  }
+}

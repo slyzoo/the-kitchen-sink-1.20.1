@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:pearl_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:pearl",
+    "count": 4
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "values": [
+    "thekitchensink:ruby_block",
+    "thekitchensink:jade_block",
+    "thekitchensink:jasper_block",
+    "thekitchensink:pearl_block",
+    "thekitchensink:garnet_block",
+    "thekitchensink:bronze_block",
+    "thekitchensink:jade_block",
+    "thekitchensink:zinc_block",
+    "thekitchensink:tin_block",
+    "thekitchensink:raw_zinc_block",
+    "thekitchensink:raw_aluminium_block",
+    "thekitchensink:raw_tin_block",
+    "thekitchensink:rose_quartz_block",
+    "thekitchensink:purple_gold_block",
+    "thekitchensink:steel_block",
+    "thekitchensink:ruby_ore",
+    "thekitchensink:deepslate_ruby_ore",
+    "thekitchensink:ruby_block",
+    "thekitchensink:aluminium_block",
+    "thekitchensink:nether_aluminium_ore",
+    "thekitchensink:sapphire_ore",
+    "thekitchensink:deepslate_sapphire_ore",
+    "thekitchensink:sapphire_block",
+    "thekitchensink:topaz_block",
+    "thekitchensink:backrooms_level_zero_fluorescent_light",
+
+
+
+    "thekitchensink:backrooms_level_thirty_seven_pool_tiles"
+  ]
+}

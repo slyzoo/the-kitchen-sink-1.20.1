@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:tin_block"
+  }
+}

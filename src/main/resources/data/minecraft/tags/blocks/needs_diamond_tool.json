@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "thekitchensink:sapphire_ore",
+    "thekitchensink:deepslate_sapphire_ore",
+    "thekitchensink:sapphire_block",
+    "thekitchensink:topaz_block",
+    "thekitchensink:backrooms_level_zero_fluorescent_light",
+    "thekitchensink:backrooms_level_zero_tile_ceiling_block",
+    "thekitchensink:backrooms_level_zero_wall_crown_molding_block",
+    "thekitchensink:backrooms_level_zero_wall_block",
+    "thekitchensink:backrooms_level_zero_wall_baseboard_block",
+    "thekitchensink:backrooms_level_zero_moist_carpet_block",
+    "thekitchensink:backrooms_level_thirty_seven_pool_tiles"
+  ]
+}

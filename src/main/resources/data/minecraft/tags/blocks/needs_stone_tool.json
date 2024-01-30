@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "thekitchensink:jade_block",
+    "thekitchensink:jasper_block",
+    "thekitchensink:pearl_block",
+    "thekitchensink:garnet_block",
+    "thekitchensink:bronze_block",
+    "thekitchensink:zinc_block",
+    "thekitchensink:tin_block",
+    "thekitchensink:raw_zinc_block",
+    "thekitchensink:raw_aluminium_block",
+    "thekitchensink:rose_quartz_block",
+    "thekitchensink:raw_tin_block"
+
+  ]
+}

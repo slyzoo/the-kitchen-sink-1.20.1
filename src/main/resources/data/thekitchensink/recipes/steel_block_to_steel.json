@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "thekitchensink:steel_block"
+    }
+  ],
+  "result": {
+    "item": "thekitchensink:steel_ingot",
+    "count": 9
+  }
+}
