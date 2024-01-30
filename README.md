@@ -32,6 +32,12 @@ this mod currently has :
 ### Steel armour
 ### Aluminium armour
 
+## Elemental 
+### Fire
+### Water
+### Earth
+### Air
+
 # Tools
 ### Amethyst
 ### Aluminium
@@ -43,6 +49,12 @@ this mod currently has :
 ### Topaz
 ### Steel
 ### Zinc
+
+## Elemental 
+### Fire
+### Water
+### Earth
+### Air
 
 # the Backrooms
 ### Level 0
