@@ -11,21 +11,35 @@ this mod currently has :
 ### Ruby
 ### Topaz
 ### Pearl
-###
 
 # Metals
 ### Aluminium
 ### Steel
 ### Tin
 ### Bronze
+### Zinc
+### Purple gold
 
 # Armour
+### Amethyst armour
+### Copper armour
+### Obsidian armour
+### Ruby armour
+### Emerald armour
+### Sapphire armour
+### Jade armour
+### Jasper armour
+### Steel armour
+### Aluminium armour
 
 # Weapons
 
 # Tools
 
-# Dimensions
+# the Backrooms
+### Level 0
+### Level 37
+###
 
 # Misc
 ### Ender star
