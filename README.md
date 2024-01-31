@@ -19,6 +19,10 @@ this mod currently has :
 ### Bronze
 ### Zinc
 ### Purple gold
+### Fire infused steel
+### Water infused steel
+### Earth infused steel
+### Air infused steel
 
 # Armour
 ### Amethyst armour
