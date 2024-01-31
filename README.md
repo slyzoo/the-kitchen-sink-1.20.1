@@ -31,12 +31,10 @@ this mod currently has :
 ### Jasper armour
 ### Steel armour
 ### Aluminium armour
-
-## Elemental 
-### Fire
-### Water
-### Earth
-### Air
+### Fire infused steel
+### Water infused steel
+### Earth infused steel
+### Air infused steel
 
 # Tools
 ### Amethyst
@@ -49,12 +47,10 @@ this mod currently has :
 ### Topaz
 ### Steel
 ### Zinc
-
-## Elemental 
-### Fire
-### Water
-### Earth
-### Air
+### Fire infused steel
+### Water infused steel
+### Earth infused steel
+### Air infused steel
 
 # the Backrooms
 ### Level 0
