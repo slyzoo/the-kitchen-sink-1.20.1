@@ -27,6 +27,10 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings()));
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_INGOT = registerItem("fire_infused_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_INGOT = registerItem("water_infused_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_INGOT = registerItem("earth_infused_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_INGOT = registerItem("air_infused_ingot", new Item(new FabricItemSettings()));
 
 //      Flowers
 
@@ -40,6 +44,7 @@ public class ModItems {
     public static final Item OBSIDIAN_STICK = registerItem("obsidian_stick", new Item(new FabricItemSettings()));
     public static final Item HEART = registerItem("heart", new Item(new FabricItemSettings()));
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+
 
     //      Registering the item
     private static Item registerItem(String name, Item item) {

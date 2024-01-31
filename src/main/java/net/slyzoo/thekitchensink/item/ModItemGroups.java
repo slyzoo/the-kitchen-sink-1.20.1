@@ -14,10 +14,11 @@ import net.slyzoo.thekitchensink.block.ModBlocks;
 
 public class ModItemGroups {
 
-    public static final ItemGroup GEMS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Thekitchensink.MOD_ID, "ruby"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.thekitchensink"))
-                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+
+    private static final ItemGroup GEMS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.RUBY))
+            .displayName(Text.translatable("itemgroup.thekitchensink.gems"))
+            .entries((context, entries) -> {
 
 //                        Gems
                         entries.add(ModBlocks.GARNET_BLOCK);
@@ -48,56 +49,77 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TOPAZ_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
                         entries.add(ModItems.TOPAZ);
+                    }).build();
+
+    private static final ItemGroup BACKROOMS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BLOCK))
+            .displayName(Text.translatable("itemgroup.thekitchensink.thebackrooms"))
+            .entries((context, entries) -> {
+                //                  The Backrooms
+//    Level 0 (Entrance)
+                entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_FLUORESCENT_LIGHT);
+                entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_TILE_CEILING_BLOCK);
+                entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_CEILING_BLOCK);
+                entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BLOCK);
+                entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BASEBOARD_BLOCK);
+                entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_MOIST_CARPET_BLOCK);
+//    Level 37 (Poolrooms)
+                entries.add(ModBlocks.BACKROOMS_LEVEL_THIRTY_SEVEN_POOL_TILE_BLOCK);
+            }).build();
+
+    private static final ItemGroup METALS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.STEEL_INGOT))
+            .displayName(Text.translatable("itemgroup.thekitchensink.metals"))
+            .entries((context, entries) -> {
 
 //                        Metals
-                        entries.add(ModBlocks.ALUMINIUM_BLOCK);
-                        entries.add(ModBlocks.RAW_ALUMINIUM_BLOCK);
-                        entries.add(ModBlocks.NETHER_ALUMINIUM_ORE);
-                        entries.add(ModItems.RAW_ALUMINIUM);
-                        entries.add(ModItems.ALUMINIUM_INGOT);
-                        entries.add(ModBlocks.BRONZE_BLOCK);
-                        entries.add(ModItems.BRONZE_INGOT);
-                        entries.add(ModBlocks.PURPLE_GOLD_BLOCK);
-                        entries.add(ModItems.PURPLE_GOLD_INGOT);
-                        entries.add(ModBlocks.STEEL_BLOCK);
-                        entries.add(ModItems.STEEL_INGOT);
-                        entries.add(ModBlocks.TIN_BLOCK);
-                        entries.add(ModBlocks.RAW_TIN_BLOCK);
-                        entries.add(ModBlocks.TIN_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
-                        entries.add(ModItems.RAW_TIN);
-                        entries.add(ModItems.TIN_INGOT);
-                        entries.add(ModBlocks.ZINC_BLOCK);
-                        entries.add(ModBlocks.RAW_ZINC_BLOCK);
-                        entries.add(ModBlocks.ZINC_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
-                        entries.add(ModItems.RAW_ZINC);
-                        entries.add(ModItems.ZINC_INGOT);
+                entries.add(ModBlocks.ALUMINIUM_BLOCK);
+                entries.add(ModBlocks.RAW_ALUMINIUM_BLOCK);
+                entries.add(ModBlocks.NETHER_ALUMINIUM_ORE);
+                entries.add(ModItems.RAW_ALUMINIUM);
+                entries.add(ModItems.ALUMINIUM_INGOT);
+                entries.add(ModBlocks.BRONZE_BLOCK);
+                entries.add(ModItems.BRONZE_INGOT);
+                entries.add(ModBlocks.PURPLE_GOLD_BLOCK);
+                entries.add(ModItems.PURPLE_GOLD_INGOT);
+                entries.add(ModBlocks.STEEL_BLOCK);
+                entries.add(ModItems.STEEL_INGOT);
+                entries.add(ModBlocks.TIN_BLOCK);
+                entries.add(ModBlocks.RAW_TIN_BLOCK);
+                entries.add(ModBlocks.TIN_ORE);
+                entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                entries.add(ModItems.RAW_TIN);
+                entries.add(ModItems.TIN_INGOT);
+                entries.add(ModBlocks.ZINC_BLOCK);
+                entries.add(ModBlocks.RAW_ZINC_BLOCK);
+                entries.add(ModBlocks.ZINC_ORE);
+                entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
+                entries.add(ModItems.RAW_ZINC);
+                entries.add(ModItems.ZINC_INGOT);
+                entries.add(ModItems.FIRE_INFUSED_INGOT);
+                entries.add(ModItems.WATER_INFUSED_INGOT);
+                entries.add(ModItems.EARTH_INFUSED_INGOT);
+                entries.add(ModItems.AIR_INFUSED_INGOT);
+            }).build();
 
-//                  The Backrooms
-//    Level 0 (Entrance)
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_FLUORESCENT_LIGHT);
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_TILE_CEILING_BLOCK);
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_CEILING_BLOCK);
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BLOCK);
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BASEBOARD_BLOCK);
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_MOIST_CARPET_BLOCK);
-
-//    Level 37 (Poolrooms)
-                        entries.add(ModBlocks.BACKROOMS_LEVEL_THIRTY_SEVEN_POOL_TILE_BLOCK);
-
-
-//                        Misc
-                        entries.add(ModItems.ENDER_STAR);
-                        entries.add(ModItems.HEART);
-                        entries.add(ModItems.OBSIDIAN_STICK);
-                        entries.add(ModItems.METAL_DETECTOR);
-
-                    }).build());
-
+    private static final ItemGroup MISC = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.ENDER_STAR))
+            .displayName(Text.translatable("itemgroup.thekitchensink.misc"))
+            .entries((context, entries) -> {
+                //                        Misc
+                entries.add(ModItems.ENDER_STAR);
+                entries.add(ModItems.HEART);
+                entries.add(ModItems.OBSIDIAN_STICK);
+                entries.add(ModItems.METAL_DETECTOR);
+                    }).build();
 
 //      Logger for item group
     public static void registerItemGroups() {
+        Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "gems"), GEMS);
+        Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "backrooms"), BACKROOMS);
+        Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "metals"), METALS);
+        Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "misc"), MISC);
+
         Thekitchensink.LOGGER.info("Registering Item Groups for" +Thekitchensink.MOD_ID);
     }
 }
