@@ -2,13 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "# #",
-    "#T#",
-    " # "
+    "RGR",
+    "GTG",
+    "RGR"
   ],
   "key": {
-    "#": {
+    "R": {
       "item": "thekitchensink:ruby"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
     },
     "T": {
       "item": "minecraft:totem_of_undying"

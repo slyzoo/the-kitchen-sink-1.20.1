@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " H ",
+    "O  "
+  ],
+  "key": {
+    "0": {
+      "item": "thekitchensink:obsidian_stick"
+    },
+    "H": {
+      "item": "thekitchensink:heart"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:life_stealer_sword"
+  }
+}

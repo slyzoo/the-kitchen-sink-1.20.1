@@ -71,7 +71,6 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.STEEL_INGOT))
             .displayName(Text.translatable("itemgroup.thekitchensink.metals"))
             .entries((context, entries) -> {
-
 //                        Metals
                 entries.add(ModBlocks.ALUMINIUM_BLOCK);
                 entries.add(ModBlocks.RAW_ALUMINIUM_BLOCK);
@@ -82,8 +81,6 @@ public class ModItemGroups {
                 entries.add(ModItems.BRONZE_INGOT);
                 entries.add(ModBlocks.PURPLE_GOLD_BLOCK);
                 entries.add(ModItems.PURPLE_GOLD_INGOT);
-                entries.add(ModBlocks.STEEL_BLOCK);
-                entries.add(ModItems.STEEL_INGOT);
                 entries.add(ModBlocks.TIN_BLOCK);
                 entries.add(ModBlocks.RAW_TIN_BLOCK);
                 entries.add(ModBlocks.TIN_ORE);
@@ -96,10 +93,6 @@ public class ModItemGroups {
                 entries.add(ModBlocks.DEEPSLATE_ZINC_ORE);
                 entries.add(ModItems.RAW_ZINC);
                 entries.add(ModItems.ZINC_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_INGOT);
-                entries.add(ModItems.WATER_INFUSED_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_INGOT);
-                entries.add(ModItems.AIR_INFUSED_INGOT);
             }).build();
 
     private static final ItemGroup MISC = FabricItemGroup.builder()
@@ -111,7 +104,21 @@ public class ModItemGroups {
                 entries.add(ModItems.HEART);
                 entries.add(ModItems.OBSIDIAN_STICK);
                 entries.add(ModItems.METAL_DETECTOR);
+                entries.add(ModItems.SOUL);
                     }).build();
+
+    private static final ItemGroup ELEMENTAL = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.FIRE_INFUSED_STEEL_INGOT))
+            .displayName(Text.translatable("itemgroup.thekitchensink.elemental"))
+            .entries((context, entries) -> {
+                //                        Elemental
+                entries.add(ModBlocks.STEEL_BLOCK);
+                entries.add(ModItems.STEEL_INGOT);
+                entries.add(ModItems.FIRE_INFUSED_STEEL_INGOT);
+                entries.add(ModItems.WATER_INFUSED_STEEL_INGOT);
+                entries.add(ModItems.EARTH_INFUSED_STEEL_INGOT);
+                entries.add(ModItems.AIR_INFUSED_STEEL_INGOT);
+            }).build();
 
 //      Logger for item group
     public static void registerItemGroups() {
@@ -119,6 +126,7 @@ public class ModItemGroups {
         Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "backrooms"), BACKROOMS);
         Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "metals"), METALS);
         Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "misc"), MISC);
+        Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "elemental"), ELEMENTAL);
 
         Thekitchensink.LOGGER.info("Registering Item Groups for" +Thekitchensink.MOD_ID);
     }

@@ -11,6 +11,7 @@
   "item.thekitchensink.obsidian_stick": "Obsidian Stick",
   "item.thekitchensink.pearl": "Pearl",
   "item.thekitchensink.purple_gold_ingot": "Purple Gold Ingot",
+  "item.thekitchensink.soul": "Soul",
   "item.thekitchensink.raw_tin": "Raw Tin",
   "item.thekitchensink.raw_zinc": "Raw Zinc",
   "item.thekitchensink.ruby": "Ruby",
@@ -20,11 +21,10 @@
   "item.thekitchensink.tin_ingot": "Tin Ingot",
   "item.thekitchensink.topaz": "Topaz Crystal",
   "item.thekitchensink.zinc_ingot": "Zinc Ingot",
-
-  "item.thekitchensink.fire_infused_ingot": "Zinc Ingot",
-  "item.thekitchensink.water_infused_ingot": "Zinc Ingot",
-  "item.thekitchensink.earth_infused_ingot": "Zinc Ingot",
-  "item.thekitchensink.air_infused_ingot": "Zinc Ingot",
+  "item.thekitchensink.fire_infused_steel_ingot": "Fire Infused Steel Ingot",
+  "item.thekitchensink.water_infused_steel_ingot": "Water Infused Steel Ingot",
+  "item.thekitchensink.earth_infused_steel_ingot": "Earth Infused Steel Ingot",
+  "item.thekitchensink.air_infused_steel_ingot": "Air Infused Steel Ingot",
 
 
 
@@ -71,13 +71,13 @@
   "block.thekitchensink.backrooms_level_zero_wall_block": "Backrooms Level 0 Wall Block",
   "block.thekitchensink.backrooms_level_zero_wall_baseboard_block": "Backrooms Level 0 Wall Baseboard Block",
   "block.thekitchensink.backrooms_level_zero_moist_carpet_block": "Backrooms Level 0 Moist Carpet Block",
-
   "block.thekitchensink.backrooms_level_thirty_seven_pool_tiles": "Backrooms Level 37 Pool Tiles",
 
 
 
-  "itemgroup.thekitchensink.gems": "Gems",
-  "itemgroup.thekitchensink.metals": "Metals",
-  "itemgroup.thekitchensink.thebackrooms": "The Backrooms",
-  "itemgroup.thekitchensink.misc": "Misc"
+  "itemgroup.thekitchensink.gems": "The kitchen sink: Gems",
+  "itemgroup.thekitchensink.metals": "The kitchen sink: Metals",
+  "itemgroup.thekitchensink.elemental": "The kitchen sink: Elemental",
+  "itemgroup.thekitchensink.thebackrooms": "The kitchen sink: The Backrooms",
+  "itemgroup.thekitchensink.misc": "The kitchen sink: Misc"
 }
