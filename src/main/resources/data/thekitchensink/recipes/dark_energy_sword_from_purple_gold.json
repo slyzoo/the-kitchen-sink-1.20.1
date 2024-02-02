@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "weapons",
+  "pattern": [
+    " SP",
+    "SBS",
+    "OS "
+  ],
+  "key": {
+    "0": {
+      "item": "thekitchensink:obsidian_stick"
+    },
+    "P": {
+      "item": "thekitchensink:purple_gold_ingot"
+    },
+    "S": {
+      "item": "thekitchensink:steel_block"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:dark_energy_sword"
+  }
+}

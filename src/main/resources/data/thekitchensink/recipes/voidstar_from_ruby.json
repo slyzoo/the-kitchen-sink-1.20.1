@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "weapons",
+  "pattern": [
+    " #R",
+    "#W#",
+    "O# "
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:steel_block"
+    },
+    "0": {
+      "item": "thekitchensink:obsidian_stick"
+    },
+    "R": {
+      "item": "thekitchensink:ruby"
+    },
+    "W": {
+      "item": "thekitchensink:ender_star"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:voidstar_sword"
+  }
+}

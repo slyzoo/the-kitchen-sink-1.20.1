@@ -8,10 +8,10 @@
   ],
   "key": {
     "R": {
-      "item": "thekitchensink:ruby"
+      "item": "thekitchensink:ruby_block"
     },
     "G": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:gold_block"
     },
     "T": {
       "item": "minecraft:totem_of_undying"

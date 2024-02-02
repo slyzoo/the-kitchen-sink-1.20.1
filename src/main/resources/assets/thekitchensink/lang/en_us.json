@@ -5,6 +5,10 @@
   "item.thekitchensink.ender_star": "Ender Star",
   "item.thekitchensink.garnet": "Garnet",
   "item.thekitchensink.heart": "Heart",
+  "item.thekitchensink.iron_plated_heart": "iron Plated Heart",
+  "item.thekitchensink.gold_plated_heart": "Gold Plated Heart",
+  "item.thekitchensink.diamond_plated_heart": "Diamond Plated Heart",
+  "item.thekitchensink.netherite_plated_heart": "Netherite Plated Heart",
   "item.thekitchensink.jade": "Jade",
   "item.thekitchensink.jasper": "Jasper",
   "item.thekitchensink.metal_detector": "Metal Detector",
@@ -26,6 +30,9 @@
   "item.thekitchensink.earth_infused_steel_ingot": "Earth Infused Steel Ingot",
   "item.thekitchensink.air_infused_steel_ingot": "Air Infused Steel Ingot",
 
+  "item.thekitchensink.lifestealer_sword": "The Lifestealer",
+  "item.thekitchensink.dark_energy_sword": "Dark Energy Sword",
+  "item.thekitchensink.voidstar_sword": "VoidStar Sword",
 
 
   "block.thekitchensink.nether_aluminium_ore": "Nether Aluminium Ore",
@@ -75,9 +82,7 @@
 
 
 
-  "itemgroup.thekitchensink.gems": "The kitchen sink: Gems",
-  "itemgroup.thekitchensink.metals": "The kitchen sink: Metals",
-  "itemgroup.thekitchensink.elemental": "The kitchen sink: Elemental",
+  "itemgroup.thekitchensink.minerals": "The kitchen sink: Minerals",
   "itemgroup.thekitchensink.thebackrooms": "The kitchen sink: The Backrooms",
   "itemgroup.thekitchensink.misc": "The kitchen sink: Misc"
 }

@@ -42,12 +42,19 @@ public class ModItems {
 //      Misc
     public static final Item ENDER_STAR = registerItem("ender_star", new Item(new FabricItemSettings()));
     public static final Item OBSIDIAN_STICK = registerItem("obsidian_stick", new Item(new FabricItemSettings()));
-    public static final Item HEART = registerItem("HeartItem", new Item(new FabricItemSettings()));
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
     public static final Item SOUL = registerItem("soul", new Item(new FabricItemSettings()));
 
+    public static final Item HEART = registerItem("heart", new Item(new FabricItemSettings()));
+    public static final Item IRON_PLATED_HEART = registerItem("iron_plated_heart", new Item(new FabricItemSettings()));
+    public static final Item GOLDEN_PLATED_HEART = registerItem("golden_plated_heart", new Item(new FabricItemSettings()));
+    public static final Item DIAMOND_PLATED_HEART = registerItem("diamond_plated_heart", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_PLATED_HEART = registerItem("netherite_plated_heart", new Item(new FabricItemSettings()));
+
 //     Weapons
-public static final Item LIFESTEALER_SWORD = registerItem("lifestealer_sword", new Item(new FabricItemSettings()));
+    public static final Item LIFESTEALER_SWORD = registerItem("lifestealer_sword", new Item(new FabricItemSettings()));
+    public static final Item DARK_ENERGY_SWORD = registerItem("dark_energy_sword", new Item(new FabricItemSettings()));
+    public static final Item VOIDSTAR_SWORD = registerItem("voidstar_sword", new Item(new FabricItemSettings()));
 
     //      Registering the item
     private static Item registerItem(String name, Item item) {

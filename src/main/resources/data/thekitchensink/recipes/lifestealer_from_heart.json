@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##R",
+    "#H#",
+    "O# "
+  ],
+  "key": {
+    "#": {
+      "item": "thekitchensink:steel_ingot"
+    },
+    "H": {
+      "item": "thekitchensink:heart"
+    },
+    "R": {
+      "item": "thekitchensink:ruby_block"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:lifestealer_sword"
+  }
+}
