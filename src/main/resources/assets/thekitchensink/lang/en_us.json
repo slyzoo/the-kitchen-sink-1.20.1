@@ -2,11 +2,13 @@
   "item.thekitchensink.aluminium_ingot": "Aluminium Ingot",
   "item.thekitchensink.raw_aluminium": "Raw Aluminium",
   "item.thekitchensink.bronze_ingot": "Bronze",
+  "item.thekitchensink.crumpled_paper": "Crumpled Paper",
   "item.thekitchensink.ender_star": "Ender Star",
   "item.thekitchensink.garnet": "Garnet",
   "item.thekitchensink.heart": "Heart",
-  "item.thekitchensink.iron_plated_heart": "iron Plated Heart",
-  "item.thekitchensink.gold_plated_heart": "Gold Plated Heart",
+  "item.thekitchensink.copper_plated_heart": "Copper Plated Heart",
+  "item.thekitchensink.iron_plated_heart": "Iron Plated Heart",
+  "item.thekitchensink.golden_plated_heart": "Gold Plated Heart",
   "item.thekitchensink.diamond_plated_heart": "Diamond Plated Heart",
   "item.thekitchensink.netherite_plated_heart": "Netherite Plated Heart",
   "item.thekitchensink.jade": "Jade",
@@ -29,11 +31,38 @@
   "item.thekitchensink.water_infused_steel_ingot": "Water Infused Steel Ingot",
   "item.thekitchensink.earth_infused_steel_ingot": "Earth Infused Steel Ingot",
   "item.thekitchensink.air_infused_steel_ingot": "Air Infused Steel Ingot",
-
+  
   "item.thekitchensink.lifestealer_sword": "The Lifestealer",
   "item.thekitchensink.dark_energy_sword": "Dark Energy Sword",
   "item.thekitchensink.voidstar_sword": "VoidStar Sword",
+  "item.thekitchensink.deaths_scythe": "Death's Scythe",
 
+  "item.thekitchensink.banana": "Banana",
+  "item.thekitchensink.cherry": "Cherry",
+  "item.thekitchensink.cantaloupe": "Cantaloupe",
+  "item.thekitchensink.strawberry": "Strawberry",
+  "item.thekitchensink.raspberry": "Raspberry",
+  "item.thekitchensink.blueberry": "Blueberry",
+  "item.thekitchensink.blackberry": "Blackberry",
+  "item.thekitchensink.grapefruit": "Grapefruit",
+  "item.thekitchensink.orange": "Orange",
+  "item.thekitchensink.pineapple": "Pineapple",
+  "item.thekitchensink.dragon_fruit": "Dragon Fruit",
+  "item.thekitchensink.kiwi": "Kiwi",
+  "item.thekitchensink.lemon": "Lemon",
+  "item.thekitchensink.lime": "Lime",
+  "item.thekitchensink.baguette": "Baguette",
+  "item.thekitchensink.diamond_apple": "Diamond Apple",
+  "item.thekitchensink.netherite_apple": "Netherite Apple",
+
+  "item.thekitchensink.bronze_coin": "Bronze Coin",
+  "item.thekitchensink.copper_coin": "Copper Coin",
+  "item.thekitchensink.iron_coin": "Iron Coin",
+  "item.thekitchensink.steel_coin": "Steel Coin",
+  "item.thekitchensink.aluminium_coin": "Aluminium Coin",
+  "item.thekitchensink.gold_coin": "Gold Coin",
+  "item.thekitchensink.diamond_coin": "Diamond Coin",
+  "item.thekitchensink.netherite_coin": "Netherite Coin",
 
   "block.thekitchensink.nether_aluminium_ore": "Nether Aluminium Ore",
   "block.thekitchensink.aluminium_block": "Block of Aluminium",
@@ -70,8 +99,6 @@
   "block.thekitchensink.zinc_ore": "Zinc Ore",
   "block.thekitchensink.deepslate_zinc_ore": "Deepslate Zinc Ore",
 
-
-
   "block.thekitchensink.backrooms_level_zero_fluorescent_light": "Backrooms Level 0 Fluorescent Light",
   "block.thekitchensink.backrooms_level_zero_tile_ceiling_block": "Backrooms Level 0 Tile Ceiling Block",
   "block.thekitchensink.backrooms_level_zero_wall_crown_molding_block": "Backrooms Level 0 Wall Crown Molding",
@@ -80,9 +107,10 @@
   "block.thekitchensink.backrooms_level_zero_moist_carpet_block": "Backrooms Level 0 Moist Carpet Block",
   "block.thekitchensink.backrooms_level_thirty_seven_pool_tiles": "Backrooms Level 37 Pool Tiles",
 
-
-
   "itemgroup.thekitchensink.minerals": "The kitchen sink: Minerals",
+  "itemgroup.thekitchensink.food": "The kitchen sink: Food",
   "itemgroup.thekitchensink.thebackrooms": "The kitchen sink: The Backrooms",
-  "itemgroup.thekitchensink.misc": "The kitchen sink: Misc"
+  "itemgroup.thekitchensink.misc": "The kitchen sink: Misc",
+
+  "tooltip.thekitchensink.metal_detector.tooltip": "It detects metals"
 }

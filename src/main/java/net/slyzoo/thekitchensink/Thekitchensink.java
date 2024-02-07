@@ -2,6 +2,7 @@ package net.slyzoo.thekitchensink;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.slyzoo.thekitchensink.block.ModBlocks;
 import net.slyzoo.thekitchensink.item.ModItemGroups;
 import net.slyzoo.thekitchensink.item.ModItems;
@@ -18,5 +19,7 @@ public class Thekitchensink implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.CRUMPLED_PAPER, 200);
 	}
 }

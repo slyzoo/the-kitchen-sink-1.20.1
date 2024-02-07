@@ -50,7 +50,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
                         entries.add(ModItems.TOPAZ);
 
-                //                        Metals
+//                              Metals
                 entries.add(ModBlocks.ALUMINIUM_BLOCK);
                 entries.add(ModBlocks.RAW_ALUMINIUM_BLOCK);
                 entries.add(ModBlocks.NETHER_ALUMINIUM_ORE);
@@ -78,7 +78,7 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BLOCK))
             .displayName(Text.translatable("itemgroup.thekitchensink.thebackrooms"))
             .entries((context, entries) -> {
-                //                  The Backrooms
+//                          The Backrooms
 //    Level 0 (Entrance)
                 entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_FLUORESCENT_LIGHT);
                 entries.add(ModBlocks.BACKROOMS_LEVEL_ZERO_TILE_CEILING_BLOCK);
@@ -94,9 +94,10 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.ENDER_STAR))
             .displayName(Text.translatable("itemgroup.thekitchensink.misc"))
             .entries((context, entries) -> {
-                //                        Misc
+//                        Misc
                 entries.add(ModItems.ENDER_STAR);
                 entries.add(ModItems.HEART);
+                entries.add(ModItems.COPPER_PLATED_HEART);
                 entries.add(ModItems.IRON_PLATED_HEART);
                 entries.add(ModItems.GOLDEN_PLATED_HEART);
                 entries.add(ModItems.DIAMOND_PLATED_HEART);
@@ -104,22 +105,68 @@ public class ModItemGroups {
                 entries.add(ModItems.OBSIDIAN_STICK);
                 entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModItems.SOUL);
+                entries.add(ModItems.CRUMPLED_PAPER);
+
+//                Weapons
                 entries.add(ModItems.LIFESTEALER_SWORD);
                 entries.add(ModItems.DARK_ENERGY_SWORD);
                 entries.add(ModItems.VOIDSTAR_SWORD);
+                entries.add(ModItems.DEATHS_SCYTHE);
 
-                //                        Elemental
+//                        Elemental
                 entries.add(ModBlocks.STEEL_BLOCK);
                 entries.add(ModItems.STEEL_INGOT);
                 entries.add(ModItems.FIRE_INFUSED_STEEL_INGOT);
                 entries.add(ModItems.WATER_INFUSED_STEEL_INGOT);
                 entries.add(ModItems.EARTH_INFUSED_STEEL_INGOT);
                 entries.add(ModItems.AIR_INFUSED_STEEL_INGOT);
+
+//                      Currency
+                entries.add(ModItems.COPPER_COIN);
+                entries.add(ModItems.BRONZE_COIN);
+                entries.add(ModItems.ALUMINIUM_COIN);
+                entries.add(ModItems.IRON_COIN);
+                entries.add(ModItems.GOLD_COIN);
+                entries.add(ModItems.STEEL_COIN);
+                entries.add(ModItems.DIAMOND_COIN);
+                entries.add(ModItems.NETHERITE_COIN);
                     }).build();
+    private static final ItemGroup FOOD = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModItems.BAGUETTE))
+            .displayName(Text.translatable("itemgroup.thekitchensink.food"))
+            .entries((context, entries) -> {
+//                  Fruit
+                entries.add(ModItems.BANANA);
+                entries.add(ModItems.BLACKBERRY);
+                entries.add(ModItems.BLUEBERRY);
+                entries.add(ModItems.CHERRY);
+                entries.add(ModItems.CANTALOUPE);
+                entries.add(ModItems.DRAGON_FRUIT);
+                entries.add(ModItems.GRAPEFRUIT);
+                entries.add(ModItems.ORANGE);
+                entries.add(ModItems.LIME);
+                entries.add(ModItems.LEMON);
+                entries.add(ModItems.KIWI);
+                entries.add(ModItems.PINEAPPLE);
+                entries.add(ModItems.RASPBERRY);
+                entries.add(ModItems.STRAWBERRY);
+
+//                Bread
+                entries.add(ModItems.BAGUETTE);
+
+//                Veggies
+
+//                Special Fruits
+                entries.add(ModItems.DIAMOND_APPLE);
+                entries.add(ModItems.NETHERITE_APPLE);
+
+
+            }).build();
 
 //      Logger for item group
     public static void registerItemGroups() {
         Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "minerals"), MINERALS);
+        Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "food"), FOOD);
         Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "backrooms"), BACKROOMS);
         Registry.register(Registries.ITEM_GROUP, new Identifier("thekitchensink", "misc"), MISC);
 
