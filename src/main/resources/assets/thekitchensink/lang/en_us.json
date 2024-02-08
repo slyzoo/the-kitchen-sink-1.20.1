@@ -64,6 +64,15 @@
   "item.thekitchensink.diamond_coin": "Diamond Coin",
   "item.thekitchensink.netherite_coin": "Netherite Coin",
 
+  "item.thekitchensink.bronze_nugget": "Bronze Nugget",
+  "item.thekitchensink.copper_nugget": "Copper Nugget",
+  "item.thekitchensink.tin_nugget": "Tin Nugget",
+  "item.thekitchensink.steel_nugget": "Steel Nugget",
+  "item.thekitchensink.aluminium_nugget": "Aluminium Nugget",
+  "item.thekitchensink.zinc_nugget": "Zinc Nugget",
+  "item.thekitchensink.diamond_nugget": "Diamond Nugget",
+  "item.thekitchensink.netherite_nugget": "Netherite Nugget",
+
   "block.thekitchensink.nether_aluminium_ore": "Nether Aluminium Ore",
   "block.thekitchensink.aluminium_block": "Block of Aluminium",
   "block.thekitchensink.raw_aluminium_block": "Block of Raw Aluminium",

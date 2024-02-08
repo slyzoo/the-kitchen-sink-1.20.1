@@ -12,6 +12,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.slyzoo.thekitchensink.item.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -56,9 +57,11 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
+
+//    ToolTip
 @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context){
         tooltip.add(Text.translatable("tooltip.thekitchensink.metal_detector.tooltip"));
