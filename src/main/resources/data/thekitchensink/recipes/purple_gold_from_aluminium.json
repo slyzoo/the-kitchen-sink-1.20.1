@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AAA",
+    "GAG",
+    "GGG"
+  ],
+  "key": {
+    "A": {
+      "item": "thekitchensink:aluminium_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:purple_gold_block"
+  }
+}

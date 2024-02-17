@@ -1,53 +1,22 @@
 {
   "replace": false,
   "values": [
-    "minecraft:diamond_ore",
-    "minecraft:deepslate_diamond_ore",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:coal_ores",
 
-    "minecraft:emerald_ore",
-    "minecraft:deepslate_emerald_ore",
-
-    "minecraft:redstone_ore",
-    "minecraft:deepslate_redstone_ore",
-
-    "minecraft:iron_ore",
-    "minecraft:deepslate_iron_ore",
-
-    "minecraft:gold_ore",
-    "minecraft:deepslate_gold_ore",
-
-    "minecraft:lapis_ore",
-    "minecraft:deepslate_lapiz_ore",
-
-    "minecraft:copper_ore",
-    "minecraft:deepslate_copper_ore",
-
-    "minecraft:coal_ore",
-    "minecraft:deepslate_coal_ore",
-
-
-    "thekitchensink:ruby_ore",
-    "thekitchensink:deepslate_ruby_ore",
-
-    "thekitchensink:jade_ore",
-    "thekitchensink:deepslate_jade_ore",
-
-    "thekitchensink:garnet_ore",
-    "thekitchensink:deepslate_garnet_ore",
-
-    "thekitchensink:zinc_ore",
-    "thekitchensink:deepslate_zinc_ore",
-
-    "thekitchensink:topaz_ore",
-    "thekitchensink:deepslate_topaz_ore",
-
-    "thekitchensink:jasper_ore",
-    "thekitchensink:deepslate_jasper_ore",
-
-    "thekitchensink:sapphire_ore",
-    "thekitchensink:deepslate_sapphire_ore",
-
-    "thekitchensink:tin_ore",
-    "thekitchensink:deepslate_tin_ore"
+    "#thekitchensink:ruby_ores",
+    "#thekitchensink:jade_ores",
+    "#thekitchensink:garnet_ores",
+    "#thekitchensink:zinc_ores",
+    "#thekitchensink:topaz_ores",
+    "#thekitchensink:jasper_ores",
+    "#thekitchensink:sapphire_ores",
+    "#thekitchensink:tin_ores"
   ]
 }

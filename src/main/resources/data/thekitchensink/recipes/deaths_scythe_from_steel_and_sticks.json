@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "weapons",
+  "pattern": [
+    "SSS",
+    " T ",
+    "T  "
+  ],
+  "key": {
+    "S": {
+      "item": "thekitchensink:steel_ingot"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:deaths_scythe"
+  }
+}

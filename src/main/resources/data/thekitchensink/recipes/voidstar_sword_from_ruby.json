@@ -2,21 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "weapons",
   "pattern": [
-    " #R",
-    "#W#",
-    "O# "
+    "  R",
+    " E ",
+    "O  "
   ],
   "key": {
-    "#": {
-      "item": "thekitchensink:steel_block"
-    },
-    "0": {
+    "O": {
       "item": "thekitchensink:obsidian_stick"
     },
     "R": {
       "item": "thekitchensink:ruby"
     },
-    "W": {
+    "E": {
       "item": "thekitchensink:ender_star"
     }
   },

@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "thekitchensink:soul_sand"
+      "item": "minecraft:soul_sand"
     }
   ],
   "result": {
     "item": "thekitchensink:soul",
-    "count": 8
+    "count": 9
   }
 }

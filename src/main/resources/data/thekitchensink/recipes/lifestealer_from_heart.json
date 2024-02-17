@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "##R",
-    "#H#",
-    "O# "
+    "  R",
+    " H ",
+    "O  "
   ],
   "key": {
-    "#": {
-      "item": "thekitchensink:steel_ingot"
+    "O": {
+      "item": "thekitchensink:obsidian_stick"
     },
     "H": {
       "item": "thekitchensink:heart"
     },
     "R": {
-      "item": "thekitchensink:ruby_block"
+      "item": "thekitchensink:ruby"
     }
   },
   "result": {

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "weapons",
+  "pattern": [
+    "TCT",
+    "CCC",
+    "ZCZ"
+  ],
+  "key": {
+    "T": {
+      "item": "thekitchensink:tin_ingot"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Z": {
+      "item": "thekitchensink:zinc_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:bronze_ingot"
+  }
+}

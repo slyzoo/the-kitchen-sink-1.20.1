@@ -10,6 +10,7 @@ import net.slyzoo.thekitchensink.Thekitchensink;
 import net.slyzoo.thekitchensink.item.custom.MetalDetectorItem;
 
 public class ModItems {
+
 //      Gems
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item GARNET = registerItem("garnet", new Item(new FabricItemSettings()));
@@ -27,10 +28,108 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings()));
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new FabricItemSettings()));
+
+//    Fire Infused Vanilla
+    public static final Item FIRE_INFUSED_COPPER_INGOT = registerItem("fire_infused_copper_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_IRON_INGOT = registerItem("fire_infused_iron_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_GOLD_INGOT = registerItem("fire_infused_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_DIAMOND = registerItem("fire_infused_diamond", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_NETHER_QUARTZ = registerItem("fire_infused_nether_quartz", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_NETHERITE_INGOT = registerItem("fire_infused_netherite_ingot", new Item(new FabricItemSettings()));
+
+//    Fire Infused Ingots
     public static final Item FIRE_INFUSED_STEEL_INGOT = registerItem("fire_infused_steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_ALUMINIUM_INGOT = registerItem("fire_infused_aluminium_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_TIN_INGOT = registerItem("fire_infused_tin_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_PURPLE_GOLD_INGOT = registerItem("fire_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_ZINC_INGOT = registerItem("fire_infused_zinc_ingot", new Item(new FabricItemSettings()));
+
+
+//    Fire Infused Gems
+    public static final Item FIRE_INFUSED_RUBY = registerItem("fire_infused_ruby", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_GARNET = registerItem("fire_infused_garnet", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_TOPAZ = registerItem("fire_infused_topaz", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_JASPER = registerItem("fire_infused_jasper", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_JADE = registerItem("fire_infused_jade", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_PEARL = registerItem("fire_infused_pearl", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_ROSE_QUARTZ = registerItem("fire_infused_rose_quartz", new Item(new FabricItemSettings()));
+    public static final Item FIRE_INFUSED_SAPPHIRE = registerItem("fire_infused_sapphire", new Item(new FabricItemSettings()));
+
+//    Water Infused Vanilla
+    public static final Item WATER_INFUSED_COPPER_INGOT = registerItem("water_infused_copper_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_IRON_INGOT = registerItem("water_infused_iron_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_GOLD_INGOT = registerItem("water_infused_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_DIAMOND = registerItem("water_infused_diamond", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_NETHER_QUARTZ = registerItem("water_infused_nether_quartz", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_NETHERITE_INGOT = registerItem("water_infused_netherite_ingot", new Item(new FabricItemSettings()));
+
+//    Water Infused Ingots
     public static final Item WATER_INFUSED_STEEL_INGOT = registerItem("water_infused_steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_ALUMINIUM_INGOT = registerItem("water_infused_aluminium_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_TIN_INGOT = registerItem("water_infused_tin_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_PURPLE_GOLD_INGOT = registerItem("water_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_ZINC_INGOT = registerItem("water_infused_zinc_ingot", new Item(new FabricItemSettings()));
+
+//    Water Infused Gems
+    public static final Item WATER_INFUSED_RUBY = registerItem("water_infused_ruby", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_GARNET = registerItem("water_infused_garnet", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_TOPAZ = registerItem("water_infused_topaz", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_JASPER = registerItem("water_infused_jasper", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_JADE = registerItem("water_infused_jade", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_PEARL = registerItem("water_infused_pearl", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_ROSE_QUARTZ = registerItem("water_infused_rose_quartz", new Item(new FabricItemSettings()));
+    public static final Item WATER_INFUSED_SAPPHIRE = registerItem("water_infused_sapphire", new Item(new FabricItemSettings()));
+
+//    Earth Infused Vanilla
+    public static final Item EARTH_INFUSED_COPPER_INGOT = registerItem("earth_infused_copper_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_IRON_INGOT = registerItem("earth_infused_iron_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_GOLD_INGOT = registerItem("earth_infused_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_DIAMOND = registerItem("earth_infused_diamond", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_NETHER_QUARTZ = registerItem("earth_infused_nether_quartz", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_NETHERITE_INGOT = registerItem("earth_infused_netherite_ingot", new Item(new FabricItemSettings()));
+
+    //    Earth Infused Ingots
     public static final Item EARTH_INFUSED_STEEL_INGOT = registerItem("earth_infused_steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_ALUMINIUM_INGOT = registerItem("earth_infused_aluminium_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_TIN_INGOT = registerItem("earth_infused_tin_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_PURPLE_GOLD_INGOT = registerItem("earth_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_ZINC_INGOT = registerItem("earth_infused_zinc_ingot", new Item(new FabricItemSettings()));
+
+//    Earth Infused Gems
+    public static final Item EARTH_INFUSED_RUBY = registerItem("earth_infused_ruby", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_GARNET = registerItem("earth_infused_garnet", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_TOPAZ = registerItem("earth_infused_topaz", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_JASPER = registerItem("earth_infused_jasper", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_JADE = registerItem("earth_infused_jade", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_PEARL = registerItem("earth_infused_pearl", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_ROSE_QUARTZ = registerItem("earth_infused_rose_quartz", new Item(new FabricItemSettings()));
+    public static final Item EARTH_INFUSED_SAPPHIRE = registerItem("earth_infused_sapphire", new Item(new FabricItemSettings()));
+
+//    Air Infused Vanilla
+    public static final Item AIR_INFUSED_COPPER_INGOT = registerItem("air_infused_copper_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_IRON_INGOT = registerItem("air_infused_iron_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_GOLD_INGOT = registerItem("air_infused_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_DIAMOND = registerItem("air_infused_diamond", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_NETHER_QUARTZ = registerItem("air_infused_nether_quartz", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_NETHERITE_INGOT = registerItem("air_infused_netherite_ingot", new Item(new FabricItemSettings()));
+
+    //    Air Infused Ingots
     public static final Item AIR_INFUSED_STEEL_INGOT = registerItem("air_infused_steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_ALUMINIUM_INGOT = registerItem("air_infused_aluminium_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_TIN_INGOT = registerItem("air_infused_tin_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_PURPLE_GOLD_INGOT = registerItem("air_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_ZINC_INGOT = registerItem("air_infused_zinc_ingot", new Item(new FabricItemSettings()));
+
+
+    //    Air Infused Gems
+    public static final Item AIR_INFUSED_RUBY = registerItem("air_infused_ruby", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_GARNET = registerItem("air_infused_garnet", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_TOPAZ = registerItem("air_infused_topaz", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_JASPER = registerItem("air_infused_jasper", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_JADE = registerItem("air_infused_jade", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_PEARL = registerItem("air_infused_pearl", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_ROSE_QUARTZ = registerItem("air_infused_rose_quartz", new Item(new FabricItemSettings()));
+    public static final Item AIR_INFUSED_SAPPHIRE = registerItem("air_infused_sapphire", new Item(new FabricItemSettings()));
 
 //    Nuggets
     public static final Item ALUMINIUM_NUGGET = registerItem("aluminium_nugget", new Item(new FabricItemSettings()));
@@ -51,8 +150,6 @@ public class ModItems {
     public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new FabricItemSettings()));
     public static final Item DIAMOND_COIN = registerItem("diamond_coin", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_COIN = registerItem("netherite_coin", new Item(new FabricItemSettings()));
-
-//      Flowers
 
 //      Raw Ore
     public static final Item RAW_ALUMINIUM = registerItem("raw_aluminium", new Item(new FabricItemSettings()));
@@ -98,16 +195,18 @@ public class ModItems {
 //    Bread
     public static final Item BAGUETTE = registerItem("baguette", new Item(new FabricItemSettings().food(ModFoodComponents.BAGUETTE)));
 
-//    Veggies
-
 //    Special Fruit
     public static final Item DIAMOND_APPLE = registerItem("diamond_apple", new Item(new FabricItemSettings()
         .food(ModFoodComponents.DIAMOND_APPLE)));
     public static final Item NETHERITE_APPLE = registerItem("netherite_apple", new Item(new FabricItemSettings()
             .food(ModFoodComponents.NETHERITE_APPLE)));
 
+//    Veggies
+
 //    Fuel
     public static final Item CRUMPLED_PAPER = registerItem("crumpled_paper", new Item(new FabricItemSettings()));
+
+//      Flowers
 
     //      Registering the item
     private static Item registerItem(String name, Item item) {

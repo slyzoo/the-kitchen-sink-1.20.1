@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "GQ",
+    "QG"
+  ],
+  "key": {
+    "Q": {
+      "item": "thekitchensink:rose_quartz"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "thekitchensink:rose_quartz"
+  }
+}
