@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "thekitchensink:item/air_infused_nether_quartz_ingot"
+  }
+}

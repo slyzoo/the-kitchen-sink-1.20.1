@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "thekitchensink:item/earth_infused_zinc_ingot"
+  }
+}
