@@ -1,8 +1,7 @@
 package net.slyzoo.thekitchensink.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -43,7 +42,6 @@ public class ModItems {
     public static final Item FIRE_INFUSED_TIN_INGOT = registerItem("fire_infused_tin_ingot", new Item(new FabricItemSettings()));
     public static final Item FIRE_INFUSED_PURPLE_GOLD_INGOT = registerItem("fire_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
     public static final Item FIRE_INFUSED_ZINC_INGOT = registerItem("fire_infused_zinc_ingot", new Item(new FabricItemSettings()));
-
 
 //    Fire Infused Gems
     public static final Item FIRE_INFUSED_RUBY = registerItem("fire_infused_ruby", new Item(new FabricItemSettings()));
@@ -170,11 +168,174 @@ public class ModItems {
     public static final Item DIAMOND_PLATED_HEART = registerItem("diamond_plated_heart", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_PLATED_HEART = registerItem("netherite_plated_heart", new Item(new FabricItemSettings()));
 
-//     Weapons
-    public static final Item LIFESTEALER_SWORD = registerItem("lifestealer_sword", new Item(new FabricItemSettings()));
-    public static final Item DARK_ENERGY_SWORD = registerItem("dark_energy_sword", new Item(new FabricItemSettings()));
-    public static final Item VOIDSTAR_SWORD = registerItem("voidstar_sword", new Item(new FabricItemSettings()));
-    public static final Item DEATHS_SCYTHE = registerItem("deaths_scythe", new Item(new FabricItemSettings()));
+//    Gem Tools
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterial.RUBY, 10, 1f,  new FabricItemSettings()));
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new AxeItem(ModToolMaterial.RUBY, 10, 1f,  new FabricItemSettings()));
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new PickaxeItem(ModToolMaterial.RUBY, 10, 1f,  new FabricItemSettings()));
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 10, 1f,  new FabricItemSettings()));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new HoeItem(ModToolMaterial.RUBY, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item GARNET_SWORD = registerItem("garnet_sword",
+            new SwordItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item GARNET_AXE = registerItem("garnet_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item GARNET_PICKAXE = registerItem("garnet_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item GARNET_SHOVEL = registerItem("garnet_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item GARNET_HOE = registerItem("garnet_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item TOPAZ_SWORD = registerItem("topaz_sword",
+            new SwordItem(ModToolMaterial.TOPAZ, 10, 1f,  new FabricItemSettings()));
+    public static final Item TOPAZ_AXE = registerItem("topaz_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item TOPAZ_PICKAXE = registerItem("topaz_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item TOPAZ_SHOVEL = registerItem("topaz_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item TOPAZ_HOE = registerItem("topaz_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item JADE_SWORD = registerItem("jade_sword",
+            new SwordItem(ModToolMaterial.JADE, 10, 1f,  new FabricItemSettings()));
+    public static final Item JADE_AXE = registerItem("jade_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item JADE_PICKAXE = registerItem("jade_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item JADE_SHOVEL = registerItem("jade_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item JADE_HOE = registerItem("jade_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword",
+            new SwordItem(ModToolMaterial.SAPPHIRE, 10, 1f,  new FabricItemSettings()));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item PEARL_SWORD = registerItem("pearl_sword",
+            new SwordItem(ModToolMaterial.PEARL, 10, 1f,  new FabricItemSettings()));
+    public static final Item PEARL_AXE = registerItem("pearl_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item PEARL_PICKAXE = registerItem("pearl_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item PEARL_SHOVEL = registerItem("pearl_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item PEARL_HOE = registerItem("pearl_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item ROSE_QUARTZ_SWORD = registerItem("rose_quartz_sword",
+            new SwordItem(ModToolMaterial.ROSE_QUARTZ, 10, 1f,  new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_AXE = registerItem("rose_quartz_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_PICKAXE = registerItem("rose_quartz_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_SHOVEL = registerItem("rose_quartz_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_HOE = registerItem("rose_quartz_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item JASPER_SWORD = registerItem("jasper_sword",
+            new SwordItem(ModToolMaterial.JASPER, 10, 1f,  new FabricItemSettings()));
+    public static final Item JASPER_AXE = registerItem("jasper_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item JASPER_PICKAXE = registerItem("jasper_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item JASPER_SHOVEL = registerItem("jasper_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item JASPER_HOE = registerItem("jasper_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+//    Metal Tools
+    public static final Item ALUMINIUM_SWORD = registerItem("aluminium_sword",
+            new SwordItem(ModToolMaterial.ALUMINIUM, 10, 1f,  new FabricItemSettings()));
+    public static final Item ALUMINIUM_AXE = registerItem("aluminium_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ALUMINIUM_PICKAXE = registerItem("aluminium_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ALUMINIUM_SHOVEL = registerItem("aluminium_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ALUMINIUM_HOE = registerItem("aluminium_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item BRONZE_SWORD = registerItem("bronze_sword",
+            new SwordItem(ModToolMaterial.BRONZE, 10, 1f,  new FabricItemSettings()));
+    public static final Item BRONZE_AXE = registerItem("bronze_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item BRONZE_PICKAXE = registerItem("bronze_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item BRONZE_SHOVEL = registerItem("bronze_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item BRONZE_HOE = registerItem("bronze_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item PURPLE_GOLD_SWORD = registerItem("purple_gold_sword",
+            new SwordItem(ModToolMaterial.PURPLE_GOLD, 10, 1f,  new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_AXE = registerItem("purple_gold_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_PICKAXE = registerItem("purple_gold_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_SHOVEL = registerItem("purple_gold_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_HOE = registerItem("purple_gold_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item STEEL_SWORD = registerItem("steel_sword",
+            new SwordItem(ModToolMaterial.STEEL, 10, 1f,  new FabricItemSettings()));
+    public static final Item STEEL_AXE = registerItem("steel_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item STEEL_HOE = registerItem("steel_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item TIN_SWORD = registerItem("tin_sword",
+            new SwordItem(ModToolMaterial.TIN, 10, 1f,  new FabricItemSettings()));
+    public static final Item TIN_AXE = registerItem("tin_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item TIN_PICKAXE = registerItem("tin_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item TIN_SHOVEL = registerItem("tin_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item TIN_HOE = registerItem("tin_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item ZINC_SWORD = registerItem("zinc_sword",
+            new SwordItem(ModToolMaterial.ZINC, 10, 1f,  new FabricItemSettings()));
+    public static final Item ZINC_AXE = registerItem("zinc_axe",
+            new AxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ZINC_PICKAXE = registerItem("zinc_pickaxe",
+            new PickaxeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ZINC_SHOVEL = registerItem("zinc_shovel",
+            new ShovelItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+    public static final Item ZINC_HOE = registerItem("zinc_hoe",
+            new HoeItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
+
+//     God-Like Weapons
+    public static final Item LIFESTEALER_SWORD = registerItem("lifestealer_sword",
+        new SwordItem(ModToolMaterial.LIFESTEALER, 10, 1f,  new FabricItemSettings()));
+
+    public static final Item DARK_ENERGY_SWORD = registerItem("dark_energy_sword",
+        new SwordItem(ModToolMaterial.DARK_ENERGY, 10, 1f,new FabricItemSettings()));
+
+    public static final Item VOIDSTAR_SWORD = registerItem("voidstar_sword",
+        new SwordItem(ModToolMaterial.VOIDSTAR, 10, 1f,new FabricItemSettings()));
+
+    public static final Item DEATHS_SCYTHE = registerItem("deaths_scythe",
+        new SwordItem(ModToolMaterial.DEATHS, 10, 1f,new FabricItemSettings()));
 
 //    Fruit
     public static final Item BANANA = registerItem("banana", new Item(new FabricItemSettings().food(ModFoodComponents.BANANA)));

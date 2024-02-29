@@ -264,11 +264,98 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.VOIDSTAR_SWORD))
             .displayName(Text.translatable("itemgroup.thekitchensink.armour_and_tools"))
             .entries((context, entries) -> {
-                //                Weapons
+//                God-Like Weapons & Tools
                 entries.add(ModItems.LIFESTEALER_SWORD);
                 entries.add(ModItems.DARK_ENERGY_SWORD);
                 entries.add(ModItems.VOIDSTAR_SWORD);
                 entries.add(ModItems.DEATHS_SCYTHE);
+
+//                Gem Weapons & Tools
+                entries.add(ModItems.RUBY_SWORD);
+                entries.add(ModItems.RUBY_AXE);
+                entries.add(ModItems.RUBY_PICKAXE);
+                entries.add(ModItems.RUBY_SHOVEL);
+                entries.add(ModItems.RUBY_HOE);
+
+                entries.add(ModItems.GARNET_SWORD);
+                entries.add(ModItems.GARNET_AXE);
+                entries.add(ModItems.GARNET_PICKAXE);
+                entries.add(ModItems.GARNET_SHOVEL);
+                entries.add(ModItems.GARNET_HOE);
+
+                entries.add(ModItems.TOPAZ_SWORD);
+                entries.add(ModItems.TOPAZ_AXE);
+                entries.add(ModItems.TOPAZ_PICKAXE);
+                entries.add(ModItems.TOPAZ_SHOVEL);
+                entries.add(ModItems.TOPAZ_HOE);
+
+                entries.add(ModItems.JADE_SWORD);
+                entries.add(ModItems.JADE_AXE);
+                entries.add(ModItems.JADE_PICKAXE);
+                entries.add(ModItems.JADE_SHOVEL);
+                entries.add(ModItems.JADE_HOE);
+
+                entries.add(ModItems.SAPPHIRE_SWORD);
+                entries.add(ModItems.SAPPHIRE_AXE);
+                entries.add(ModItems.SAPPHIRE_PICKAXE);
+                entries.add(ModItems.SAPPHIRE_SHOVEL);
+                entries.add(ModItems.SAPPHIRE_HOE);
+
+                entries.add(ModItems.PEARL_SWORD);
+                entries.add(ModItems.PEARL_AXE);
+                entries.add(ModItems.PEARL_PICKAXE);
+                entries.add(ModItems.PEARL_SHOVEL);
+                entries.add(ModItems.PEARL_HOE);
+
+                entries.add(ModItems.ROSE_QUARTZ_SWORD);
+                entries.add(ModItems.ROSE_QUARTZ_AXE);
+                entries.add(ModItems.ROSE_QUARTZ_PICKAXE);
+                entries.add(ModItems.ROSE_QUARTZ_SHOVEL);
+                entries.add(ModItems.ROSE_QUARTZ_HOE);
+
+                entries.add(ModItems.JASPER_SWORD);
+                entries.add(ModItems.JASPER_AXE);
+                entries.add(ModItems.JASPER_PICKAXE);
+                entries.add(ModItems.JASPER_SHOVEL);
+                entries.add(ModItems.JASPER_HOE);
+
+//                Metal Weapons & Tools
+                entries.add(ModItems.ALUMINIUM_SWORD);
+                entries.add(ModItems.ALUMINIUM_AXE);
+                entries.add(ModItems.ALUMINIUM_PICKAXE);
+                entries.add(ModItems.ALUMINIUM_SHOVEL);
+                entries.add(ModItems.ALUMINIUM_HOE);
+
+                entries.add(ModItems.BRONZE_SWORD);
+                entries.add(ModItems.BRONZE_AXE);
+                entries.add(ModItems.BRONZE_PICKAXE);
+                entries.add(ModItems.BRONZE_SHOVEL);
+                entries.add(ModItems.BRONZE_HOE);
+
+                entries.add(ModItems.PURPLE_GOLD_SWORD);
+                entries.add(ModItems.PURPLE_GOLD_AXE);
+                entries.add(ModItems.PURPLE_GOLD_PICKAXE);
+                entries.add(ModItems.PURPLE_GOLD_SHOVEL);
+                entries.add(ModItems.PURPLE_GOLD_HOE);
+
+                entries.add(ModItems.STEEL_SWORD);
+                entries.add(ModItems.STEEL_AXE);
+                entries.add(ModItems.STEEL_PICKAXE);
+                entries.add(ModItems.STEEL_SHOVEL);
+                entries.add(ModItems.STEEL_HOE);
+
+                entries.add(ModItems.TIN_SWORD);
+                entries.add(ModItems.TIN_AXE);
+                entries.add(ModItems.TIN_PICKAXE);
+                entries.add(ModItems.TIN_SHOVEL);
+                entries.add(ModItems.TIN_HOE);
+
+                entries.add(ModItems.ZINC_SWORD);
+                entries.add(ModItems.ZINC_AXE);
+                entries.add(ModItems.ZINC_PICKAXE);
+                entries.add(ModItems.ZINC_SHOVEL);
+                entries.add(ModItems.ZINC_HOE);
+
             }).build();
 
 //      Logger for item group
