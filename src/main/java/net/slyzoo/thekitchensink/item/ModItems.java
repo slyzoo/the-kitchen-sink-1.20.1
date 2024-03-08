@@ -12,13 +12,52 @@ public class ModItems {
 
 //      Gems
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
     public static final Item GARNET = registerItem("garnet", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
     public static final Item JADE = registerItem("jade", new Item(new FabricItemSettings()));
+    /* colours for gimp
+    * hue : -56.0
+    * lightness : -54.0
+    * saturation : 100% */
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
     public static final Item PEARL = registerItem("pearl", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
     public static final Item ROSE_QUARTZ = registerItem("rose_quartz", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
     public static final Item JASPER = registerItem("jasper", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
+
 
 //      Ingots
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", new Item(new FabricItemSettings()));
