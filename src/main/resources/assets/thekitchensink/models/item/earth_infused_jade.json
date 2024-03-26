@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "thekitchensink:item/earth_infused_jade_ingot"
+    "layer0": "thekitchensink:item/earth_infused_jade"
   }
 }

@@ -25,7 +25,7 @@ public class ModItems {
 
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
     /* colours for gimp
-     * hue : 00.0
+     * hue : -120.0
      * lightness : 00.0
      * saturation : % */
 
