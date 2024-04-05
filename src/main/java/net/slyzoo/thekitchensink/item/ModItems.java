@@ -19,8 +19,8 @@ public class ModItems {
 
     public static final Item GARNET = registerItem("garnet", new Item(new FabricItemSettings()));
     /* colours for gimp
-     * hue : 00.0
-     * lightness : 00.0
+     * hue : -180.0
+     * lightness : -30.0
      * saturation : % */
 
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
@@ -36,8 +36,8 @@ public class ModItems {
     * saturation : 100% */
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     /* colours for gimp
-     * hue : 00.0
-     * lightness : 00.0
+     * hue : 55.0
+     * lightness : 10.0
      * saturation : % */
 
     public static final Item PEARL = registerItem("pearl", new Item(new FabricItemSettings()));
@@ -48,21 +48,29 @@ public class ModItems {
 
     public static final Item ROSE_QUARTZ = registerItem("rose_quartz", new Item(new FabricItemSettings()));
     /* colours for gimp
-     * hue : 00.0
-     * lightness : 00.0
+     * hue : 135.0
+     * lightness : 50.0
      * saturation : % */
 
     public static final Item JASPER = registerItem("jasper", new Item(new FabricItemSettings()));
     /* colours for gimp
-     * hue : 00.0
-     * lightness : 00.0
+     * hue : 120.0
+     * lightness : 10.0
      * saturation : % */
 
 
 //      Ingots
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", new Item(new FabricItemSettings()));
     public static final Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : -150.0
+     * lightness : 25.0
+     * saturation : % */
     public static final Item PURPLE_GOLD_INGOT = registerItem("purple_gold_ingot", new Item(new FabricItemSettings()));
+    /* colours for gimp
+     * hue : 00.0
+     * lightness : 00.0
+     * saturation : % */
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings()));
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new FabricItemSettings()));
