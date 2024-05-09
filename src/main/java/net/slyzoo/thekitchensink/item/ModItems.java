@@ -12,10 +12,6 @@ public class ModItems {
 
 //      Gems
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_RUBY = registerItem("air_infused_ruby", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_RUBY = registerItem("earth_infused_ruby", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_RUBY = registerItem("fire_infused_ruby", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_RUBY = registerItem("water_infused_ruby", new Item(new FabricItemSettings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
             new SwordItem(ModToolMaterial.RUBY, 10, 1f,  new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItem("ruby_axe",
@@ -33,10 +29,6 @@ public class ModItems {
      * saturation : % */
 
     public static final Item GARNET = registerItem("garnet", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_GARNET = registerItem("air_infused_garnet", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_GARNET = registerItem("earth_infused_garnet", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_GARNET = registerItem("fire_infused_garnet", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_GARNET = registerItem("water_infused_garnet", new Item(new FabricItemSettings()));
     public static final Item GARNET_SWORD = registerItem("garnet_sword",
             new SwordItem(ModToolMaterial.GARNET, 10, 1f,  new FabricItemSettings()));
     public static final Item GARNET_AXE = registerItem("garnet_axe",
@@ -53,10 +45,6 @@ public class ModItems {
      * saturation : % */
 
     public static final Item TOPAZ = registerItem("topaz", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_TOPAZ = registerItem("air_infused_topaz", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_TOPAZ = registerItem("earth_infused_topaz", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_TOPAZ = registerItem("fire_infused_topaz", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_TOPAZ = registerItem("water_infused_topaz", new Item(new FabricItemSettings()));
     public static final Item TOPAZ_SWORD = registerItem("topaz_sword",
             new SwordItem(ModToolMaterial.TOPAZ, 10, 1f,  new FabricItemSettings()));
     public static final Item TOPAZ_AXE = registerItem("topaz_axe",
@@ -73,10 +61,6 @@ public class ModItems {
      * saturation : % */
 
     public static final Item JADE = registerItem("jade", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_JADE = registerItem("air_infused_jade", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_JADE = registerItem("earth_infused_jade", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_JADE = registerItem("fire_infused_jade", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_JADE = registerItem("water_infused_jade", new Item(new FabricItemSettings()));
     public static final Item JADE_SWORD = registerItem("jade_sword",
             new SwordItem(ModToolMaterial.JADE, 10, 1f,  new FabricItemSettings()));
     public static final Item JADE_AXE = registerItem("jade_axe",
@@ -93,10 +77,6 @@ public class ModItems {
     * saturation : 100% */
 
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_SAPPHIRE = registerItem("air_infused_sapphire", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_SAPPHIRE = registerItem("earth_infused_sapphire", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_SAPPHIRE = registerItem("fire_infused_sapphire", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_SAPPHIRE = registerItem("water_infused_sapphire", new Item(new FabricItemSettings()));
     public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword",
             new SwordItem(ModToolMaterial.SAPPHIRE, 10, 1f,  new FabricItemSettings()));
     public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe",
@@ -113,30 +93,12 @@ public class ModItems {
      * saturation : % */
 
     public static final Item PEARL = registerItem("pearl", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_PEARL = registerItem("air_infused_pearl", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_PEARL = registerItem("earth_infused_pearl", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_PEARL = registerItem("fire_infused_pearl", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_PEARL = registerItem("water_infused_pearl", new Item(new FabricItemSettings()));
-    public static final Item PEARL_SWORD = registerItem("pearl_sword",
-            new SwordItem(ModToolMaterial.PEARL, 10, 1f,  new FabricItemSettings()));
-    public static final Item PEARL_AXE = registerItem("pearl_axe",
-            new AxeItem(ModToolMaterial.PEARL, 10, 1f,  new FabricItemSettings()));
-    public static final Item PEARL_PICKAXE = registerItem("pearl_pickaxe",
-            new PickaxeItem(ModToolMaterial.PEARL, 10, 1f,  new FabricItemSettings()));
-    public static final Item PEARL_SHOVEL = registerItem("pearl_shovel",
-            new ShovelItem(ModToolMaterial.PEARL, 10, 1f,  new FabricItemSettings()));
-    public static final Item PEARL_HOE = registerItem("pearl_hoe",
-            new HoeItem(ModToolMaterial.PEARL, 10, 1f,  new FabricItemSettings()));
     /* colours for gimp
      * hue : 00.0
      * lightness : 100.0
      * saturation : 100% */
 
     public static final Item ROSE_QUARTZ = registerItem("rose_quartz", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_ROSE_QUARTZ = registerItem("air_infused_rose_quartz", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_ROSE_QUARTZ = registerItem("earth_infused_rose_quartz", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_ROSE_QUARTZ = registerItem("fire_infused_rose_quartz", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_ROSE_QUARTZ = registerItem("water_infused_rose_quartz", new Item(new FabricItemSettings()));
     public static final Item ROSE_QUARTZ_SWORD = registerItem("rose_quartz_sword",
             new SwordItem(ModToolMaterial.ROSE_QUARTZ, 10, 1f,  new FabricItemSettings()));
     public static final Item ROSE_QUARTZ_AXE = registerItem("rose_quartz_axe",
@@ -153,10 +115,6 @@ public class ModItems {
      * saturation : % */
 
     public static final Item JASPER = registerItem("jasper", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_JASPER = registerItem("air_infused_jasper", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_JASPER = registerItem("earth_infused_jasper", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_JASPER = registerItem("fire_infused_jasper", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_JASPER = registerItem("water_infused_jasper", new Item(new FabricItemSettings()));
     public static final Item JASPER_SWORD = registerItem("jasper_sword",
             new SwordItem(ModToolMaterial.JASPER, 10, 1f,  new FabricItemSettings()));
     public static final Item JASPER_AXE = registerItem("jasper_axe",
@@ -177,10 +135,6 @@ public class ModItems {
     public static final Item RAW_ALUMINIUM = registerItem("raw_aluminium", new Item(new FabricItemSettings()));
     public static final Item ALUMINIUM_NUGGET = registerItem("aluminium_nugget", new Item(new FabricItemSettings()));
     public static final Item ALUMINIUM_COIN = registerItem("aluminium_coin", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_ALUMINIUM_INGOT = registerItem("air_infused_aluminium_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_ALUMINIUM_INGOT = registerItem("earth_infused_aluminium_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_ALUMINIUM_INGOT = registerItem("fire_infused_aluminium_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_ALUMINIUM_INGOT = registerItem("water_infused_aluminium_ingot", new Item(new FabricItemSettings()));
     public static final Item ALUMINIUM_SWORD = registerItem("aluminium_sword",
             new SwordItem(ModToolMaterial.ALUMINIUM, 10, 1f,  new FabricItemSettings()));
     public static final Item ALUMINIUM_AXE = registerItem("aluminium_axe",
@@ -214,10 +168,6 @@ public class ModItems {
      * saturation : % */
 
     public static final Item PURPLE_GOLD_INGOT = registerItem("purple_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_PURPLE_GOLD_INGOT = registerItem("air_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_PURPLE_GOLD_INGOT = registerItem("earth_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_PURPLE_GOLD_INGOT = registerItem("fire_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_PURPLE_GOLD_INGOT = registerItem("water_infused_purple_gold_ingot", new Item(new FabricItemSettings()));
     public static final Item PURPLE_GOLD_SWORD = registerItem("purple_gold_sword",
             new SwordItem(ModToolMaterial.PURPLE_GOLD, 10, 1f,  new FabricItemSettings()));
     public static final Item PURPLE_GOLD_AXE = registerItem("purple_gold_axe",
@@ -236,10 +186,6 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item STEEL_NUGGET = registerItem("steel_nugget", new Item(new FabricItemSettings()));
     public static final Item STEEL_COIN = registerItem("steel_coin", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_STEEL_INGOT = registerItem("air_infused_steel_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_STEEL_INGOT = registerItem("earth_infused_steel_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_STEEL_INGOT = registerItem("fire_infused_steel_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_STEEL_INGOT = registerItem("water_infused_steel_ingot", new Item(new FabricItemSettings()));
     public static final Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterial.STEEL, 10, 1f,  new FabricItemSettings()));
     public static final Item STEEL_AXE = registerItem("steel_axe",
@@ -254,52 +200,15 @@ public class ModItems {
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new FabricItemSettings()));
     public static final Item TIN_NUGGET = registerItem("tin_nugget", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_TIN_INGOT = registerItem("air_infused_tin_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_TIN_INGOT = registerItem("earth_infused_tin_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_TIN_INGOT = registerItem("fire_infused_tin_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_TIN_INGOT = registerItem("water_infused_tin_ingot", new Item(new FabricItemSettings()));
-    public static final Item TIN_SWORD = registerItem("tin_sword",
-            new SwordItem(ModToolMaterial.TIN, 10, 1f,  new FabricItemSettings()));
-    public static final Item TIN_AXE = registerItem("tin_axe",
-            new AxeItem(ModToolMaterial.TIN, 10, 1f,  new FabricItemSettings()));
-    public static final Item TIN_PICKAXE = registerItem("tin_pickaxe",
-            new PickaxeItem(ModToolMaterial.TIN, 10, 1f,  new FabricItemSettings()));
-    public static final Item TIN_SHOVEL = registerItem("tin_shovel",
-            new ShovelItem(ModToolMaterial.TIN, 10, 1f,  new FabricItemSettings()));
-    public static final Item TIN_HOE = registerItem("tin_hoe",
-            new HoeItem(ModToolMaterial.TIN, 10, 1f,  new FabricItemSettings()));
 
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item(new FabricItemSettings()));
     public static final Item ZINC_NUGGET = registerItem("zinc_nugget", new Item(new FabricItemSettings()));
     public static final Item RAW_ZINC = registerItem("raw_zinc", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_ZINC_INGOT = registerItem("air_infused_zinc_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_ZINC_INGOT = registerItem("earth_infused_zinc_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_ZINC_INGOT = registerItem("fire_infused_zinc_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_ZINC_INGOT = registerItem("water_infused_zinc_ingot", new Item(new FabricItemSettings()));
-    public static final Item ZINC_SWORD = registerItem("zinc_sword",
-            new SwordItem(ModToolMaterial.ZINC, 10, 1f,  new FabricItemSettings()));
-    public static final Item ZINC_AXE = registerItem("zinc_axe",
-            new AxeItem(ModToolMaterial.ZINC, 10, 1f,  new FabricItemSettings()));
-    public static final Item ZINC_PICKAXE = registerItem("zinc_pickaxe",
-            new PickaxeItem(ModToolMaterial.ZINC, 10, 1f,  new FabricItemSettings()));
-    public static final Item ZINC_SHOVEL = registerItem("zinc_shovel",
-            new ShovelItem(ModToolMaterial.ZINC, 10, 1f,  new FabricItemSettings()));
-    public static final Item ZINC_HOE = registerItem("zinc_hoe",
-            new HoeItem(ModToolMaterial.ZINC, 10, 1f,  new FabricItemSettings()));
 
     public static final Item HEART = registerItem("heart", new Item(new FabricItemSettings()));
 
 //  Elemental Infused Vanilla Materials
-    public static final Item AIR_INFUSED_COPPER_INGOT = registerItem("air_infused_copper_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_COPPER_INGOT = registerItem("earth_infused_copper_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_COPPER_INGOT = registerItem("fire_infused_copper_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_COPPER_INGOT = registerItem("water_infused_copper_ingot", new Item(new FabricItemSettings()));
-
     public static final Item IRON_COIN = registerItem("iron_coin", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_IRON_INGOT = registerItem("air_infused_iron_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_IRON_INGOT = registerItem("earth_infused_iron_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_IRON_INGOT = registerItem("fire_infused_iron_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_IRON_INGOT = registerItem("water_infused_iron_ingot", new Item(new FabricItemSettings()));
     public static final Item IRON_PLATED_HEART = registerItem("iron_plated_heart", new Item(new FabricItemSettings()));
 
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
@@ -307,33 +216,16 @@ public class ModItems {
     public static final Item COPPER_PLATED_HEART = registerItem("copper_plated_heart", new Item(new FabricItemSettings()));
 
     public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_GOLD_INGOT = registerItem("air_infused_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_GOLD_INGOT = registerItem("earth_infused_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_GOLD_INGOT = registerItem("fire_infused_gold_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_GOLD_INGOT = registerItem("water_infused_gold_ingot", new Item(new FabricItemSettings()));
     public static final Item GOLDEN_PLATED_HEART = registerItem("golden_plated_heart", new Item(new FabricItemSettings()));
 
     public static final Item DIAMOND_NUGGET = registerItem("diamond_nugget", new Item(new FabricItemSettings()));
     public static final Item DIAMOND_COIN = registerItem("diamond_coin", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_DIAMOND = registerItem("air_infused_diamond", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_DIAMOND = registerItem("earth_infused_diamond", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_DIAMOND = registerItem("fire_infused_diamond", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_DIAMOND = registerItem("water_infused_diamond", new Item(new FabricItemSettings()));
     public static final Item DIAMOND_PLATED_HEART = registerItem("diamond_plated_heart", new Item(new FabricItemSettings()));
     public static final Item DIAMOND_APPLE = registerItem("diamond_apple", new Item(new FabricItemSettings()
         .food(ModFoodComponents.DIAMOND_APPLE)));
 
-    public static final Item AIR_INFUSED_NETHER_QUARTZ = registerItem("air_infused_nether_quartz", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_NETHER_QUARTZ = registerItem("earth_infused_nether_quartz", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_NETHER_QUARTZ = registerItem("fire_infused_nether_quartz", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_NETHER_QUARTZ = registerItem("water_infused_nether_quartz", new Item(new FabricItemSettings()));
-
     public static final Item NETHERITE_NUGGET = registerItem("netherite_nugget", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_COIN = registerItem("netherite_coin", new Item(new FabricItemSettings()));
-    public static final Item AIR_INFUSED_NETHERITE_INGOT = registerItem("air_infused_netherite_ingot", new Item(new FabricItemSettings()));
-    public static final Item EARTH_INFUSED_NETHERITE_INGOT = registerItem("earth_infused_netherite_ingot", new Item(new FabricItemSettings()));
-    public static final Item FIRE_INFUSED_NETHERITE_INGOT = registerItem("fire_infused_netherite_ingot", new Item(new FabricItemSettings()));
-    public static final Item WATER_INFUSED_NETHERITE_INGOT = registerItem("water_infused_netherite_ingot", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_PLATED_HEART = registerItem("netherite_plated_heart", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_APPLE = registerItem("netherite_apple", new Item(new FabricItemSettings()
             .food(ModFoodComponents.NETHERITE_APPLE)));
@@ -347,13 +239,10 @@ public class ModItems {
 //     God-Like Weapons
     public static final Item LIFESTEALER_SWORD = registerItem("lifestealer_sword",
         new SwordItem(ModToolMaterial.LIFESTEALER, 10, 1f,  new FabricItemSettings()));
-
     public static final Item DARK_ENERGY_SWORD = registerItem("dark_energy_sword",
         new SwordItem(ModToolMaterial.DARK_ENERGY, 10, 1f,new FabricItemSettings()));
-
     public static final Item VOIDSTAR_SWORD = registerItem("voidstar_sword",
         new SwordItem(ModToolMaterial.VOIDSTAR, 10, 1f,new FabricItemSettings()));
-
     public static final Item DEATHS_SCYTHE = registerItem("deaths_scythe",
         new SwordItem(ModToolMaterial.DEATHS, 10, 1f,new FabricItemSettings()));
 

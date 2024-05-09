@@ -26,10 +26,6 @@ public class ModItemGroups {
                 entries.add(ModBlocks.NETHER_ALUMINIUM_ORE);
                 entries.add(ModItems.RAW_ALUMINIUM);
                 entries.add(ModItems.ALUMINIUM_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_ALUMINIUM_INGOT);
-                entries.add(ModItems.WATER_INFUSED_ALUMINIUM_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_ALUMINIUM_INGOT);
-                entries.add(ModItems.AIR_INFUSED_ALUMINIUM_INGOT);
                 entries.add(ModItems.ALUMINIUM_NUGGET);
                 entries.add(ModItems.ALUMINIUM_COIN);
 
@@ -38,26 +34,14 @@ public class ModItemGroups {
                 entries.add(ModItems.BRONZE_NUGGET);
                 entries.add(ModItems.BRONZE_COIN);
 
-                entries.add(ModItems.AIR_INFUSED_COPPER_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_COPPER_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_COPPER_INGOT);
-                entries.add(ModItems.WATER_INFUSED_COPPER_INGOT);
                 entries.add(ModItems.COPPER_COIN);
                 entries.add(ModItems.COPPER_NUGGET);
 
                 entries.add(ModBlocks.PURPLE_GOLD_BLOCK);
                 entries.add(ModItems.PURPLE_GOLD_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_PURPLE_GOLD_INGOT);
-                entries.add(ModItems.WATER_INFUSED_PURPLE_GOLD_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_PURPLE_GOLD_INGOT);
-                entries.add(ModItems.AIR_INFUSED_PURPLE_GOLD_INGOT);
 
                 entries.add(ModBlocks.STEEL_BLOCK);
                 entries.add(ModItems.STEEL_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_STEEL_INGOT);
-                entries.add(ModItems.WATER_INFUSED_STEEL_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_STEEL_INGOT);
-                entries.add(ModItems.AIR_INFUSED_STEEL_INGOT);
                 entries.add(ModItems.STEEL_NUGGET);
                 entries.add(ModItems.STEEL_COIN);
 
@@ -67,10 +51,6 @@ public class ModItemGroups {
                 entries.add(ModBlocks.RAW_TIN_BLOCK);
                 entries.add(ModItems.RAW_TIN);
                 entries.add(ModItems.TIN_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_TIN_INGOT);
-                entries.add(ModItems.WATER_INFUSED_TIN_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_TIN_INGOT);
-                entries.add(ModItems.AIR_INFUSED_TIN_INGOT);
                 entries.add(ModItems.TIN_NUGGET);
 
                 entries.add(ModBlocks.ZINC_BLOCK);
@@ -79,41 +59,13 @@ public class ModItemGroups {
                 entries.add(ModBlocks.RAW_ZINC_BLOCK);
                 entries.add(ModItems.RAW_ZINC);
                 entries.add(ModItems.ZINC_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_ZINC_INGOT);
-                entries.add(ModItems.WATER_INFUSED_ZINC_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_ZINC_INGOT);
-                entries.add(ModItems.AIR_INFUSED_ZINC_INGOT);
                 entries.add(ModItems.ZINC_NUGGET);
 
 
-                entries.add(ModItems.AIR_INFUSED_IRON_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_IRON_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_IRON_INGOT);
-                entries.add(ModItems.WATER_INFUSED_IRON_INGOT);
                 entries.add(ModItems.IRON_COIN);
-
-                entries.add(ModItems.AIR_INFUSED_GOLD_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_GOLD_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_GOLD_INGOT);
-                entries.add(ModItems.WATER_INFUSED_GOLD_INGOT);
                 entries.add(ModItems.GOLD_COIN);
-
-                entries.add(ModItems.AIR_INFUSED_DIAMOND);
-                entries.add(ModItems.EARTH_INFUSED_DIAMOND);
-                entries.add(ModItems.FIRE_INFUSED_DIAMOND);
-                entries.add(ModItems.WATER_INFUSED_DIAMOND);
                 entries.add(ModItems.DIAMOND_NUGGET);
                 entries.add(ModItems.DIAMOND_COIN);
-
-                entries.add(ModItems.AIR_INFUSED_NETHER_QUARTZ);
-                entries.add(ModItems.EARTH_INFUSED_NETHER_QUARTZ);
-                entries.add(ModItems.FIRE_INFUSED_NETHER_QUARTZ);
-                entries.add(ModItems.WATER_INFUSED_NETHER_QUARTZ);
-
-                entries.add(ModItems.AIR_INFUSED_NETHERITE_INGOT);
-                entries.add(ModItems.EARTH_INFUSED_NETHERITE_INGOT);
-                entries.add(ModItems.FIRE_INFUSED_NETHERITE_INGOT);
-                entries.add(ModItems.WATER_INFUSED_NETHERITE_INGOT);
                 entries.add(ModItems.NETHERITE_NUGGET);
                 entries.add(ModItems.NETHERITE_COIN);
                     }).build();
@@ -127,69 +79,37 @@ public class ModItemGroups {
                 entries.add(ModBlocks.GARNET_ORE);
                 entries.add(ModBlocks.DEEPSLATE_GARNET_ORE);
                 entries.add(ModItems.GARNET);
-                entries.add(ModItems.AIR_INFUSED_GARNET);
-                entries.add(ModItems.EARTH_INFUSED_GARNET);
-                entries.add(ModItems.FIRE_INFUSED_GARNET);
-                entries.add(ModItems.WATER_INFUSED_GARNET);
 
                 entries.add(ModBlocks.JADE_BLOCK);
                 entries.add(ModBlocks.JADE_ORE);
                 entries.add(ModBlocks.DEEPSLATE_JADE_ORE);
                 entries.add(ModItems.JADE);
-                entries.add(ModItems.AIR_INFUSED_JADE);
-                entries.add(ModItems.EARTH_INFUSED_JADE);
-                entries.add(ModItems.FIRE_INFUSED_JADE);
-                entries.add(ModItems.WATER_INFUSED_JADE);
 
                 entries.add(ModBlocks.JASPER_BLOCK);
                 entries.add(ModBlocks.JASPER_ORE);
                 entries.add(ModBlocks.DEEPSLATE_JASPER_ORE);
                 entries.add(ModItems.JASPER);
-                entries.add(ModItems.AIR_INFUSED_JASPER);
-                entries.add(ModItems.EARTH_INFUSED_JASPER);
-                entries.add(ModItems.FIRE_INFUSED_JASPER);
-                entries.add(ModItems.WATER_INFUSED_JASPER);
 
                 entries.add(ModBlocks.PEARL_BLOCK);
                 entries.add(ModItems.PEARL);
-                entries.add(ModItems.AIR_INFUSED_PEARL);
-                entries.add(ModItems.EARTH_INFUSED_PEARL);
-                entries.add(ModItems.FIRE_INFUSED_PEARL);
-                entries.add(ModItems.WATER_INFUSED_PEARL);
 
                 entries.add(ModBlocks.RUBY_BLOCK);
                 entries.add(ModBlocks.RUBY_ORE);
                 entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                 entries.add(ModItems.RUBY);
-                entries.add(ModItems.AIR_INFUSED_RUBY);
-                entries.add(ModItems.EARTH_INFUSED_RUBY);
-                entries.add(ModItems.FIRE_INFUSED_RUBY);
-                entries.add(ModItems.WATER_INFUSED_RUBY);
 
                 entries.add(ModBlocks.ROSE_QUARTZ_BLOCK);
                 entries.add(ModItems.ROSE_QUARTZ);
-                entries.add(ModItems.AIR_INFUSED_ROSE_QUARTZ);
-                entries.add(ModItems.EARTH_INFUSED_ROSE_QUARTZ);
-                entries.add(ModItems.FIRE_INFUSED_ROSE_QUARTZ);
-                entries.add(ModItems.WATER_INFUSED_ROSE_QUARTZ);
 
                 entries.add(ModBlocks.SAPPHIRE_BLOCK);
                 entries.add(ModBlocks.SAPPHIRE_ORE);
                 entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                 entries.add(ModItems.SAPPHIRE);
-                entries.add(ModItems.AIR_INFUSED_SAPPHIRE);
-                entries.add(ModItems.EARTH_INFUSED_SAPPHIRE);
-                entries.add(ModItems.FIRE_INFUSED_SAPPHIRE);
-                entries.add(ModItems.WATER_INFUSED_SAPPHIRE);
 
                 entries.add(ModBlocks.TOPAZ_BLOCK);
                 entries.add(ModBlocks.TOPAZ_ORE);
                 entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
                 entries.add(ModItems.TOPAZ);
-                entries.add(ModItems.AIR_INFUSED_TOPAZ);
-                entries.add(ModItems.EARTH_INFUSED_TOPAZ);
-                entries.add(ModItems.FIRE_INFUSED_TOPAZ);
-                entries.add(ModItems.WATER_INFUSED_TOPAZ);
             }).build();
 
     private static final ItemGroup BACKROOMS = FabricItemGroup.builder()
@@ -301,12 +221,6 @@ public class ModItemGroups {
                 entries.add(ModItems.SAPPHIRE_SHOVEL);
                 entries.add(ModItems.SAPPHIRE_HOE);
 
-                entries.add(ModItems.PEARL_SWORD);
-                entries.add(ModItems.PEARL_AXE);
-                entries.add(ModItems.PEARL_PICKAXE);
-                entries.add(ModItems.PEARL_SHOVEL);
-                entries.add(ModItems.PEARL_HOE);
-
                 entries.add(ModItems.ROSE_QUARTZ_SWORD);
                 entries.add(ModItems.ROSE_QUARTZ_AXE);
                 entries.add(ModItems.ROSE_QUARTZ_PICKAXE);
@@ -343,19 +257,6 @@ public class ModItemGroups {
                 entries.add(ModItems.STEEL_PICKAXE);
                 entries.add(ModItems.STEEL_SHOVEL);
                 entries.add(ModItems.STEEL_HOE);
-
-                entries.add(ModItems.TIN_SWORD);
-                entries.add(ModItems.TIN_AXE);
-                entries.add(ModItems.TIN_PICKAXE);
-                entries.add(ModItems.TIN_SHOVEL);
-                entries.add(ModItems.TIN_HOE);
-
-                entries.add(ModItems.ZINC_SWORD);
-                entries.add(ModItems.ZINC_AXE);
-                entries.add(ModItems.ZINC_PICKAXE);
-                entries.add(ModItems.ZINC_SHOVEL);
-                entries.add(ModItems.ZINC_HOE);
-
             }).build();
 
 //      Logger for item group
