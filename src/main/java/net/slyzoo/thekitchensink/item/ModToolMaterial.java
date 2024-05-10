@@ -14,7 +14,6 @@ public enum ModToolMaterial implements ToolMaterial {
     TOPAZ(5,   4851, 5f, 3.5f, 26, () -> Ingredient.ofItems(ModItems.TOPAZ)),
     JASPER(MiningLevels.IRON,3911 , 7.4f, 3.5f, 27, () -> Ingredient.ofItems(ModItems.JASPER)),
     GARNET(MiningLevels.IRON,3441 , 1.6f, 3.5f, 22, () -> Ingredient.ofItems(ModItems.GARNET)),
-    PEARL(MiningLevels.IRON, 2971, 6.3f, 3.5f, 24, () -> Ingredient.ofItems(ModItems.PEARL)),
     ROSE_QUARTZ(MiningLevels.STONE, 2501, 6.0f, 3.5f, 26, () -> Ingredient.ofItems(ModItems.ROSE_QUARTZ)),
 
 //    Metals
@@ -22,8 +21,6 @@ public enum ModToolMaterial implements ToolMaterial {
     BRONZE(MiningLevels.IRON, 650, 7.4f, 3.5f, 22, () -> Ingredient.ofItems(ModItems.BRONZE_INGOT)),
     PURPLE_GOLD(MiningLevels.WOOD, 650, 7.4f, 3.5f, 21, () -> Ingredient.ofItems(ModItems.PURPLE_GOLD_INGOT)),
     STEEL(MiningLevels.IRON, 650, 7.4f, 3.5f, 14, () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
-    TIN(MiningLevels.IRON, 650, 7.4f, 3.5f, 14, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
-    ZINC(MiningLevels.IRON, 650, 7.4f, 3.5f, 15, () -> Ingredient.ofItems(ModItems.ZINC_INGOT)),
 
 //    God-Like
     LIFESTEALER(5, 650, 7.4f, 3.5f, 26, () -> Ingredient.ofItems(ModItems.HEART)),

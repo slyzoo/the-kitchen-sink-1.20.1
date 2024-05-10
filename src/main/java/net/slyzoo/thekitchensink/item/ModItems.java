@@ -23,6 +23,15 @@ public class ModItems {
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
             new HoeItem(ModToolMaterial.RUBY, 10, -1.0f,  new FabricItemSettings()));
 
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : 180.0
      * lightness : 00.0
@@ -39,6 +48,15 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.GARNET, 10, -3.0f,  new FabricItemSettings()));
     public static final Item GARNET_HOE = registerItem("garnet_hoe",
             new HoeItem(ModToolMaterial.GARNET, 10, -1.0f,  new FabricItemSettings()));
+    public static final Item GARNET_HELMET = registerItem("garnet_helmet",
+            new ArmorItem(ModArmourMaterials.GARNET, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item GARNET_CHESTPLATE = registerItem("garnet_chestplate",
+            new ArmorItem(ModArmourMaterials.GARNET, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item GARNET_LEGGINGS = registerItem("garnet_leggings",
+            new ArmorItem(ModArmourMaterials.GARNET, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item GARNET_BOOTS = registerItem("garnet_boots",
+            new ArmorItem(ModArmourMaterials.GARNET, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : -180.0
      * lightness : -30.0
@@ -55,6 +73,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.TOPAZ, 10, -3.0f,  new FabricItemSettings()));
     public static final Item TOPAZ_HOE = registerItem("topaz_hoe",
             new HoeItem(ModToolMaterial.TOPAZ, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item TOPAZ_HELMET = registerItem("topaz_helmet",
+            new ArmorItem(ModArmourMaterials.TOPAZ, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item TOPAZ_CHESTPLATE = registerItem("topaz_chestplate",
+            new ArmorItem(ModArmourMaterials.TOPAZ, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item TOPAZ_LEGGINGS = registerItem("topaz_leggings",
+            new ArmorItem(ModArmourMaterials.TOPAZ, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item TOPAZ_BOOTS = registerItem("topaz_boots",
+            new ArmorItem(ModArmourMaterials.TOPAZ, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : -120.0
      * lightness : 00.0
@@ -71,6 +99,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.JADE, 10, -3.0f,  new FabricItemSettings()));
     public static final Item JADE_HOE = registerItem("jade_hoe",
             new HoeItem(ModToolMaterial.JADE, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item JADE_HELMET = registerItem("jade_helmet",
+            new ArmorItem(ModArmourMaterials.JADE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item JADE_CHESTPLATE = registerItem("jade_chestplate",
+            new ArmorItem(ModArmourMaterials.JADE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item JADE_LEGGINGS = registerItem("jade_leggings",
+            new ArmorItem(ModArmourMaterials.JADE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item JADE_BOOTS = registerItem("jade_boots",
+            new ArmorItem(ModArmourMaterials.JADE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
     * hue : -56.0
     * lightness : -54.0
@@ -87,6 +125,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.SAPPHIRE, 10, -3.0f,  new FabricItemSettings()));
     public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe",
             new HoeItem(ModToolMaterial.SAPPHIRE, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet",
+            new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",
+            new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings",
+            new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
+            new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : 55.0
      * lightness : 10.0
@@ -109,6 +157,15 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.ROSE_QUARTZ, 10, -3.0f,  new FabricItemSettings()));
     public static final Item ROSE_QUARTZ_HOE = registerItem("rose_quartz_hoe",
             new HoeItem(ModToolMaterial.ROSE_QUARTZ, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item ROSE_QUARTZ_HELMET = registerItem("rose_quartz_helmet",
+            new ArmorItem(ModArmourMaterials.ROSE_QUARTZ, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_CHESTPLATE = registerItem("rose_quartz_chestplate",
+            new ArmorItem(ModArmourMaterials.ROSE_QUARTZ, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_LEGGINGS = registerItem("rose_quartz_leggings",
+            new ArmorItem(ModArmourMaterials.ROSE_QUARTZ, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ROSE_QUARTZ_BOOTS = registerItem("rose_quartz_boots",
+            new ArmorItem(ModArmourMaterials.ROSE_QUARTZ, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     /* colours for gimp
      * hue : 135.0
      * lightness : 50.0
@@ -125,6 +182,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.JASPER, 10, -3.0f,  new FabricItemSettings()));
     public static final Item JASPER_HOE = registerItem("jasper_hoe",
             new HoeItem(ModToolMaterial.JASPER, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item JASPER_HELMET = registerItem("jasper_helmet",
+            new ArmorItem(ModArmourMaterials.JASPER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item JASPER_CHESTPLATE = registerItem("jasper_chestplate",
+            new ArmorItem(ModArmourMaterials.JASPER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item JASPER_LEGGINGS = registerItem("jasper_leggings",
+            new ArmorItem(ModArmourMaterials.JASPER, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item JASPER_BOOTS = registerItem("jasper_boots",
+            new ArmorItem(ModArmourMaterials.JASPER, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : 120.0
      * lightness : 10.0
@@ -145,6 +212,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.ALUMINIUM, 10, -3.0f,  new FabricItemSettings()));
     public static final Item ALUMINIUM_HOE = registerItem("aluminium_hoe",
             new HoeItem(ModToolMaterial.ALUMINIUM, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item ALUMINIUM_HELMET = registerItem("aluminium_helmet",
+            new ArmorItem(ModArmourMaterials.ALUMINIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item ALUMINIUM_CHESTPLATE = registerItem("aluminium_chestplate",
+            new ArmorItem(ModArmourMaterials.ALUMINIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item ALUMINIUM_LEGGINGS = registerItem("aluminium_leggings",
+            new ArmorItem(ModArmourMaterials.ALUMINIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item ALUMINIUM_BOOTS = registerItem("aluminium_boots",
+            new ArmorItem(ModArmourMaterials.ALUMINIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* start from gold and do
      * -100.0 saturation
      * 85.0 lightness */
@@ -162,6 +239,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.BRONZE, 10, -3.0f,  new FabricItemSettings()));
     public static final Item BRONZE_HOE = registerItem("bronze_hoe",
             new HoeItem(ModToolMaterial.BRONZE, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item BRONZE_HELMET = registerItem("bronze_helmet",
+            new ArmorItem(ModArmourMaterials.BRONZE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BRONZE_CHESTPLATE = registerItem("bronze_chestplate",
+            new ArmorItem(ModArmourMaterials.BRONZE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item BRONZE_LEGGINGS = registerItem("bronze_leggings",
+            new ArmorItem(ModArmourMaterials.BRONZE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item BRONZE_BOOTS = registerItem("bronze_boots",
+            new ArmorItem(ModArmourMaterials.BRONZE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : -150.0
      * lightness : 25.0
@@ -178,6 +265,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.PURPLE_GOLD, 10, -3.0f,  new FabricItemSettings()));
     public static final Item PURPLE_GOLD_HOE = registerItem("purple_gold_hoe",
             new HoeItem(ModToolMaterial.PURPLE_GOLD, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item PURPLE_GOLD_HELMET = registerItem("purple_gold_helmet",
+            new ArmorItem(ModArmourMaterials.PURPLE_GOLD, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_CHESTPLATE = registerItem("purple_gold_chestplate",
+            new ArmorItem(ModArmourMaterials.PURPLE_GOLD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_LEGGINGS = registerItem("purple_gold_leggings",
+            new ArmorItem(ModArmourMaterials.PURPLE_GOLD, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item PURPLE_GOLD_BOOTS = registerItem("purple_gold_boots",
+            new ArmorItem(ModArmourMaterials.PURPLE_GOLD, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     /* colours for gimp
      * hue : 00.0
      * lightness : 00.0
@@ -196,6 +293,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.STEEL, 10, -3.0f,  new FabricItemSettings()));
     public static final Item STEEL_HOE = registerItem("steel_hoe",
             new HoeItem(ModToolMaterial.STEEL, 10, -1.0f,  new FabricItemSettings()));
+
+    public static final Item STEEL_HELMET = registerItem("steel_helmet",
+            new ArmorItem(ModArmourMaterials.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate",
+            new ArmorItem(ModArmourMaterials.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item STEEL_LEGGINGS = registerItem("steel_leggings",
+            new ArmorItem(ModArmourMaterials.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item STEEL_BOOTS = registerItem("steel_boots",
+            new ArmorItem(ModArmourMaterials.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new FabricItemSettings()));
