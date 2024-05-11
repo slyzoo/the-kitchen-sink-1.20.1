@@ -184,11 +184,6 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.VOIDSTAR_SWORD))
             .displayName(Text.translatable("itemgroup.thekitchensink.armour_and_tools"))
             .entries((context, entries) -> {
-//                God-Like Weapons & Tools
-                entries.add(ModItems.LIFESTEALER_SWORD);
-                entries.add(ModItems.DARK_ENERGY_SWORD);
-                entries.add(ModItems.VOIDSTAR_SWORD);
-                entries.add(ModItems.DEATHS_SCYTHE);
 
 //                Gem Weapons & Tools
                 entries.add(ModItems.RUBY_HELMET);
@@ -301,6 +296,12 @@ public class ModItemGroups {
                 entries.add(ModItems.STEEL_PICKAXE);
                 entries.add(ModItems.STEEL_SHOVEL);
                 entries.add(ModItems.STEEL_HOE);
+
+//                God-Like Weapons & Tools
+                entries.add(ModItems.LIFESTEALER_SWORD);
+                entries.add(ModItems.DARK_ENERGY_SWORD);
+                entries.add(ModItems.VOIDSTAR_SWORD);
+                entries.add(ModItems.DEATHS_SCYTHE);
             }).build();
 
 //      Logger for item group
