@@ -319,7 +319,70 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("J J")
                 .input('J', ModItems.JADE)
                 .criterion(hasItem(ModItems.JADE), conditionsFromItem(ModItems.JADE))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JADE)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JADE_BOOTS)));
 
+
+        //      JASPER
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.JASPER, 1)
+                .pattern("J")
+                .pattern("J")
+                .pattern("T")
+                .input('J', ModItems.JASPER).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.JASPER, 1)
+                .pattern("JJ")
+                .pattern("JT")
+                .pattern(" T")
+                .input('J', ModItems.JASPER).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.JASPER, 1)
+                .pattern("JJJ")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('J', ModItems.JASPER).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.JADE, 1)
+                .pattern("J")
+                .pattern("T")
+                .pattern("T")
+                .input('J', ModItems.JASPER).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.JASPER, 1)
+                .pattern("JJ")
+                .pattern(" T")
+                .pattern(" T")
+                .input('J', ModItems.JASPER).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_HOE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.JASPER, 1)
+                .pattern("JJJ")
+                .pattern("J J")
+                .input('J', ModItems.JASPER)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.JASPER, 1)
+                .pattern("J J")
+                .pattern("JJJ")
+                .pattern("JJJ")
+                .input('J', ModItems.JASPER)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.JASPER, 1)
+                .pattern("JJJ")
+                .pattern("J J")
+                .pattern("J J")
+                .input('J', ModItems.JASPER)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.JASPER, 1)
+                .pattern("J J")
+                .pattern("J J")
+                .input('J', ModItems.JASPER)
+                .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_BOOTS)));
     }
 }
