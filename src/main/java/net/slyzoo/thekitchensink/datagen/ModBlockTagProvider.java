@@ -2,8 +2,12 @@ package net.slyzoo.thekitchensink.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
 import net.slyzoo.thekitchensink.block.ModBlocks;
 import net.slyzoo.thekitchensink.item.util.ModTags;
 
@@ -113,13 +117,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_FLUORESCENT_LIGHT)
-                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_TILE_CEILING_BLOCK)
-                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_CEILING_BLOCK)
-                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BLOCK)
-                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BASEBOARD_BLOCK)
-                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_MOIST_CARPET_BLOCK)
-                .add(ModBlocks.BACKROOMS_LEVEL_THIRTY_SEVEN_POOL_TILE_BLOCK)
                 .add(ModBlocks.JADE_BLOCK)
                 .add(ModBlocks.JADE_ORE)
                 .add(ModBlocks.DEEPSLATE_JADE_ORE)
@@ -129,6 +126,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.SAPPHIRE_ORE)
                 .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
+                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_FLUORESCENT_LIGHT)
+                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_TILE_CEILING_BLOCK)
+                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_CEILING_BLOCK)
+                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BLOCK)
+                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_WALL_BASEBOARD_BLOCK)
+                .add(ModBlocks.BACKROOMS_LEVEL_ZERO_MOIST_CARPET_BLOCK)
+                .add(ModBlocks.BACKROOMS_LEVEL_THIRTY_SEVEN_POOL_TILE_BLOCK);
 
     }
 }
