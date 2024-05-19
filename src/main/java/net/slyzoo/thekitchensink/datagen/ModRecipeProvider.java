@@ -664,7 +664,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("T")
                 .pattern("T")
                 .input('S', ModItems.STEEL_INGOT).input('T',Items.STICK)
-                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_SHOVEL)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_INGOT, 1)
                 .pattern("SS")
@@ -699,5 +699,68 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.STEEL_INGOT)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_BOOTS)));
+
+        //      TOPAZ
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TOPAZ, 1)
+                .pattern("S")
+                .pattern("S")
+                .pattern("T")
+                .input('S', ModItems.TOPAZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TOPAZ, 1)
+                .pattern("SS")
+                .pattern("ST")
+                .pattern(" T")
+                .input('S', ModItems.TOPAZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TOPAZ, 1)
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.TOPAZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TOPAZ, 1)
+                .pattern("S")
+                .pattern("T")
+                .pattern("T")
+                .input('S', ModItems.TOPAZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TOPAZ, 1)
+                .pattern("SS")
+                .pattern(" T")
+                .pattern(" T")
+                .input('S', ModItems.TOPAZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_HOE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TOPAZ, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.TOPAZ)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TOPAZ, 1)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.TOPAZ)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TOPAZ, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.TOPAZ)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TOPAZ, 1)
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.TOPAZ)
+                .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ)));
     }
 }
