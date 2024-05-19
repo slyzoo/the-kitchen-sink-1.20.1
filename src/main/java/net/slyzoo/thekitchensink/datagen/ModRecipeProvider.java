@@ -447,5 +447,68 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModItems.PURPLE_GOLD_INGOT)
                 .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_BOOTS)));
+
+        //      ROSE QUARTZ
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSE_QUARTZ, 1)
+                .pattern("R")
+                .pattern("R")
+                .pattern("T")
+                .input('R', ModItems.ROSE_QUARTZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ROSE_QUARTZ, 1)
+                .pattern("RR")
+                .pattern("RT")
+                .pattern(" T")
+                .input('R', ModItems.ROSE_QUARTZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ROSE_QUARTZ, 1)
+                .pattern("RRR")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('R', ModItems.ROSE_QUARTZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ROSE_QUARTZ, 1)
+                .pattern("R")
+                .pattern("T")
+                .pattern("T")
+                .input('R', ModItems.ROSE_QUARTZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ROSE_QUARTZ, 1)
+                .pattern("RR")
+                .pattern(" T")
+                .pattern(" T")
+                .input('R', ModItems.ROSE_QUARTZ).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_HOE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSE_QUARTZ, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .input('R', ModItems.ROSE_QUARTZ)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSE_QUARTZ, 1)
+                .pattern("R R")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.ROSE_QUARTZ)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSE_QUARTZ, 1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.ROSE_QUARTZ)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ROSE_QUARTZ, 1)
+                .pattern("R R")
+                .pattern("R R")
+                .input('R', ModItems.ROSE_QUARTZ)
+                .criterion(hasItem(ModItems.ROSE_QUARTZ), conditionsFromItem(ModItems.ROSE_QUARTZ))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROSE_QUARTZ_BOOTS)));
     }
 }
