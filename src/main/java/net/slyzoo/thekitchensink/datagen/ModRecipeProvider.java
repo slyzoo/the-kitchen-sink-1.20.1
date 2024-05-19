@@ -762,5 +762,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.TOPAZ)
                 .criterion(hasItem(ModItems.TOPAZ), conditionsFromItem(ModItems.TOPAZ))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.TOPAZ)));
+
+//      DARK ENERGY SWORD
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ENDER_STAR, 1)
+                .pattern("P")
+                .pattern("E")
+                .pattern("T")
+                .input('R', ModItems.PURPLE_GOLD_INGOT)
+                .input('E',ModItems.ENDER_STAR)
+                .input('T',ModItems.OBSIDIAN_STICK)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT))
+                .criterion(hasItem(ModItems.ENDER_STAR), conditionsFromItem(ModItems.ENDER_STAR))
+                .criterion(hasItem(ModItems.OBSIDIAN_STICK), conditionsFromItem(ModItems.OBSIDIAN_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIFESTEALER_SWORD)));
+
+        //      VOIDSTAR SWORD
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ENDER_STAR, 1)
+                .pattern("R")
+                .pattern("E")
+                .pattern("T")
+                .input('R', ModItems.RUBY)
+                .input('E',ModItems.ENDER_STAR)
+                .input('T',ModItems.OBSIDIAN_STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).criterion(hasItem(ModItems.ENDER_STAR), conditionsFromItem(ModItems.ENDER_STAR))
+                .criterion(hasItem(ModItems.OBSIDIAN_STICK), conditionsFromItem(ModItems.OBSIDIAN_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.VOIDSTAR_SWORD)));
+
+        //      LIFESTEALER SWORD
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.HEART, 1)
+                .pattern("R")
+                .pattern("H")
+                .pattern("T")
+                .input('R', ModItems.RUBY)
+                .input('E',ModItems.HEART)
+                .input('T',ModItems.OBSIDIAN_STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .criterion(hasItem(ModItems.HEART), conditionsFromItem(ModItems.HEART))
+                .criterion(hasItem(ModItems.OBSIDIAN_STICK), conditionsFromItem(ModItems.OBSIDIAN_STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LIFESTEALER_SWORD)));
+
+//              OBBY STICK
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.OBSIDIAN, 1)
+                .pattern("O")
+                .pattern("O")
+                .input('O', Items.OBSIDIAN)
+                .criterion(hasItem(Items.OBSIDIAN), conditionsFromItem(Items.OBSIDIAN))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.OBSIDIAN_STICK)));
+
+
     }
 }
