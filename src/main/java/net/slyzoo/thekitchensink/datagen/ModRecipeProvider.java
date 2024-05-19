@@ -573,5 +573,68 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_BOOTS)));
+
+        //      SAPPHIRE
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SAPPHIRE, 1)
+                .pattern("S")
+                .pattern("S")
+                .pattern("T")
+                .input('S', ModItems.SAPPHIRE).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SAPPHIRE, 1)
+                .pattern("SS")
+                .pattern("ST")
+                .pattern(" T")
+                .input('S', ModItems.SAPPHIRE).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SAPPHIRE, 1)
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.SAPPHIRE).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SAPPHIRE, 1)
+                .pattern("S")
+                .pattern("T")
+                .pattern("T")
+                .input('S', ModItems.SAPPHIRE).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SAPPHIRE, 1)
+                .pattern("SS")
+                .pattern(" T")
+                .pattern(" T")
+                .input('S', ModItems.SAPPHIRE).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_HOE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SAPPHIRE, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SAPPHIRE, 1)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SAPPHIRE, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.SAPPHIRE, 1)
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.SAPPHIRE)
+                .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_BOOTS)));
     }
 }
