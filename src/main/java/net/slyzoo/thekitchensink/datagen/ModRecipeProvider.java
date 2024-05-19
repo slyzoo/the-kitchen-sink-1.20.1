@@ -384,5 +384,68 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('J', ModItems.JASPER)
                 .criterion(hasItem(ModItems.JASPER), conditionsFromItem(ModItems.JASPER))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.JASPER_BOOTS)));
+
+        //      PURPLE GOLD
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("P")
+                .pattern("P")
+                .pattern("T")
+                .input('P', ModItems.PURPLE_GOLD_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("PP")
+                .pattern("PT")
+                .pattern(" T")
+                .input('P', ModItems.PURPLE_GOLD_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("PPP")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('P', ModItems.PURPLE_GOLD_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("P")
+                .pattern("T")
+                .pattern("T")
+                .input('P', ModItems.PURPLE_GOLD_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("PP")
+                .pattern(" T")
+                .pattern(" T")
+                .input('P', ModItems.PURPLE_GOLD_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_HOE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("PPP")
+                .pattern("P P")
+                .input('P', ModItems.PURPLE_GOLD_INGOT)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("P P")
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModItems.PURPLE_GOLD_INGOT)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("PPP")
+                .pattern("P P")
+                .pattern("P P")
+                .input('P', ModItems.PURPLE_GOLD_INGOT)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.PURPLE_GOLD_INGOT, 1)
+                .pattern("P P")
+                .pattern("P P")
+                .input('P', ModItems.PURPLE_GOLD_INGOT)
+                .criterion(hasItem(ModItems.PURPLE_GOLD_INGOT), conditionsFromItem(ModItems.PURPLE_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.PURPLE_GOLD_BOOTS)));
     }
 }
