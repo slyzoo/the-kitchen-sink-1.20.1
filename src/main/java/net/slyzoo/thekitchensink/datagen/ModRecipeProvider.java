@@ -636,5 +636,68 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.SAPPHIRE)
                 .criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.SAPPHIRE_BOOTS)));
+
+        //      STEEL
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_INGOT, 1)
+                .pattern("S")
+                .pattern("S")
+                .pattern("T")
+                .input('S', ModItems.STEEL_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_INGOT, 1)
+                .pattern("SS")
+                .pattern("ST")
+                .pattern(" T")
+                .input('S', ModItems.STEEL_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_INGOT, 1)
+                .pattern("SSS")
+                .pattern(" T ")
+                .pattern(" T ")
+                .input('S', ModItems.STEEL_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_INGOT, 1)
+                .pattern("S")
+                .pattern("T")
+                .pattern("T")
+                .input('S', ModItems.STEEL_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_INGOT, 1)
+                .pattern("SS")
+                .pattern(" T")
+                .pattern(" T")
+                .input('S', ModItems.STEEL_INGOT).input('T',Items.STICK)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT)).criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_HOE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_INGOT, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_HELMET)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_INGOT, 1)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_CHESTPLATE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_INGOT, 1)
+                .pattern("SSS")
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_LEGGINGS)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.STEEL_INGOT, 1)
+                .pattern("S S")
+                .pattern("S S")
+                .input('S', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_BOOTS)));
     }
 }
